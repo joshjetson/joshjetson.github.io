@@ -1,5 +1,7 @@
+---
 layout: page
 title: "Deconstructed Learning System"
-permalink: /dconlearn
+file: dconlrn.md
+---
 
 # The Deconstructed Learning System
