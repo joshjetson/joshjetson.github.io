@@ -1,24 +1,30 @@
 
 
-<div>
+<p align="left">
 
-<img src="https://i.imgur.com/X44BMVl.png" align="left" width="200" height="200">
+<img src="https://i.imgur.com/X44BMVl.png" width="200" height="200">
 
 
-</div>
+</p>
 
 ## Navigation
 
 ---------------------------------
 
-[Background](#background)
+<p align="right">
+
+- [Background](#background)
+
 [Education](#education)
+
 [Work Ethic and Portfolio](#portfolio)
+
 [Drive and Mindset](#drive)
+
 [Personal Interests](#interests)
 
 
-
+</p>
 
 
 
@@ -32,12 +38,6 @@
 ---------------------------------------------------------------------
 
 
-- Background
-- Education
-- Work Ethic
-- Mindset
-- Drive
-- Personal Interests
 
 
 
