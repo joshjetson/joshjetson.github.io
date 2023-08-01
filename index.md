@@ -2,17 +2,19 @@
 
 
 
-<img src="https://i.imgur.com/X44BMVl.png" width="200" height="200">
+<img src="https://i.imgur.com/X44BMVl.png" align="left" width="200" height="200">
 
+[Junp to](#this-place)
 
 ## Personality Overview
 
 ---------------------------------
 
 - Background
+- Education
 - Work Ethic
-- Drive
 - Mindset
+- Drive
 - Personal Interests
 
 
