@@ -11,7 +11,6 @@
 
 ---------------------------------
 
-<p align="right">
 
 - [Background](#background)
 
@@ -24,7 +23,6 @@
 [Personal Interests](#interests)
 
 
-</p>
 
 
 
