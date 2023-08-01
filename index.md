@@ -4,13 +4,33 @@
 
 <img src="https://i.imgur.com/X44BMVl.png" align="left" width="200" height="200">
 
-[Junp to](#this-place)
 
 </div>
 
-## Personality Overview
+## Navigation
 
 ---------------------------------
+
+[Background](#background)
+[Education](#education)
+[Work Ethic and Portfolio](#portfolio)
+[Drive and Mindset](#drive)
+[Personal Interests](#interests)
+
+
+
+
+
+
+
+
+
+
+
+## Background
+
+---------------------------------------------------------------------
+
 
 - Background
 - Education
@@ -20,21 +40,34 @@
 - Personal Interests
 
 
-Repeatability, being able to teach others using every day speech in a deconstructed fashion
 
-## Portfolio Overview
+## Education
+
+--------------------------------
+
+
+
+
+
+
+
+## Portfolio
 
 ---------------------------------------------------------------------
 
 
 
 
-> Testing some formatting
-
-- One
-- Two
-- Three
 
 
+## Drive
+
+-----------------------
 
 
+Repeatability, being able to teach others using every day speech in a deconstructed fashion
+
+
+## Interests
+
+--------------------------
