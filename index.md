@@ -11,18 +11,24 @@
 
 ---------------------------------
 
+<div class="panel panel-gitlab-purple">
+**Navigation**
+{: .panel-heading}
+<div class="panel-body">
 
 - [Background](#background)
 
-[Education](#education)
+- [Education](#education)
 
-[Work Ethic and Portfolio](#portfolio)
+- [Work Ethic and Portfolio](#portfolio)
 
-[Drive and Mindset](#drive)
+- [Drive and Mindset](#drive)
 
-[Personal Interests](#interests)
+- [Personal Interests](#interests)
 
 
+</div>
+</div>
 
 
 
