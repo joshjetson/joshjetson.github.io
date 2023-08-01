@@ -1,8 +1,3 @@
----
-layout: page
-title: "A journey shared or a shared journey"
-filename: index.md
----
 
 # Welcome
 
