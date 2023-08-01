@@ -30,10 +30,10 @@
       <section>
         <div id="title">
           <h1>A Portrait of Work</h1>
-              <p>From the streets to the editor</p>
+              <p>{{ site.description | default: site.github.project_tagline }}</p>
               <hr>
               <span class="credits left"><a href="https://joshjetson.github.io/">Home</a></span>
-              <span class="credits right">A Journey Shared</span>
+              <span class="credits right">From the streets to the editor</span>
               </div>
 
               {{ content }}
