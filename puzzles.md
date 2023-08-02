@@ -2,7 +2,9 @@
 
 **Python3 program to find the maximum depth of tree**
 
-# A binary tree node
+**Compute the "maxDepth" of a tree -- the number of nodes along the longest path from the root node down to the farthest leaf node**
+
+```
 class Node:
 
 	# Constructor to create a new node
@@ -11,14 +13,11 @@ class Node:
 		self.left = None
 		self.right = None
 
-**Compute the "maxDepth" of a tree -- the number of nodes along the longest path from the root node down to the farthest leaf node**
-
 def maxDepth(node):
 	if node is None:
-		return -1 ;
+		return -1
 
-	else :
-
+	else:
 		# Compute the depth of each subtree
 		lDepth = maxDepth(node.left)
 		rDepth = maxDepth(node.right)
@@ -28,9 +27,10 @@ def maxDepth(node):
 			return lDepth+1
 		else:
 			return rDepth+1
+```
 
+**Driver program to test above function**
 
-# Driver program to test above function
 root = Node(1)
 root.left = Node(2)
 root.right = Node(3)

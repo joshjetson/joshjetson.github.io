@@ -2,7 +2,7 @@
 <h2 align="center">Nothing Lost</h2>
 
 ---------------------------------
-The idea behind this page is that through out the years I have worked on a lot of coding related material that may still have value either to showcase or for someone else to get gain some understanding from it.
+The idea behind this page is that throughout the years I have worked on a lot of coding related material that may still have value either to showcase or for someone else to get gain some understanding from it.
 
 ## Puzzles
 
@@ -39,3 +39,8 @@ The ideas of:
 - How to insert a new item in between other items
 - How to create associations between things that are stored so that one has an effect over the other.
 - How to give something properties and different attributes.
+
+
+## The Deconstructred Learning System
+
+-----------------------------------

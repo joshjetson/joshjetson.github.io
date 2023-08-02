@@ -31,6 +31,12 @@
 
 ---------------------------------------------------------------------
 
+I was born and raised in Los Angeles, California and lived there till I was 35.
+I was an inner city kid and experienced much more bad then good but im still really optimistic and generally a happy person.
+
+
+My journey with technology, Linux, Programming.
+
 
 <a id="portfolio"></a>
 
