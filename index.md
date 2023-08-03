@@ -47,11 +47,15 @@ My journey with technology, Linux, Programming.
 <table rules=none>
  <tr>
 <td> <img src="https://imgur.com/s13uQen.gif"></td>
-<td> <h2><a href="https://joshjetson.github.io/flight_tracking">Flight Tracking</a></h2><br>An application to simulate tracking a flight</td>
+<td> <h2><a href="https://joshjetson-flight-tracker-strmlt-fts-gb1qxl.streamlit.app/">Flight Tracking</a></h2><br>An application to simulate tracking a flight</td>
 </tr>
  <tr>
 <td> <img src="https://i.imgur.com/GYIQg9q.png"></td>
-<td> <h2><a href="https://joshjetson.github.io">Linux<br>Your Welcome</a></h2><br>A Very Simple Linux Guide And Reference</td>
+<td> <h2><a href="https://dconlrn.github.io/lyw">Linux<br>Your Welcome</a></h2><br>A Very Simple Linux Guide And Reference</td>
+</tr>
+ <tr>
+<td> <img src="https://i.imgur.com/CfWaqUg.png"></td>
+<td> <h2><a href="https://joshjetson.github.io">Machine Learning<br>Your Welcome</a></h2><br>A Very Machine Learning Guide And Reference</td>
 </tr>
 </table>
 
