@@ -7,12 +7,12 @@
 
 > **Live Onboard Instrument Data From An API**
 
-> *Pros:*
+*Pros:*
 
 - Live data would mean we can track and actual flight in real time.
 - Could build the program and have a much greater chance of being able to sell it or have it be of use quicker.
 
-> *Cons:*
+*Cons:*
 
 - Onboard instrument data from an api is gonna be expensive.
 
@@ -20,11 +20,11 @@
 
 > **Historical Data**
 
-> *Pros:*
+*Pros:*
 
 - The data is free and readily available.
 
-> *Cons:*
+*Cons:*
 
 - With historical data im not going to be able to track an actual flight im only going to be able to simulate the idea of tracking a flight.
 
@@ -33,14 +33,18 @@
 > **Decision**
 
 Since I don't have money for the former and I don't work for a company that can give me free access to an api ill just have to settle with using hitsorical data for the project.
-What ill do though is work out all of the logic so that if I ever do get access to live onboard instrument data I can just plug and play.
+What ill do though is work out all of the logic so that if I ever do get access to live onboard instrument data I can just plug and play or maybe someone else could take my code and plug and play.
 
-**Data Sources**
+-----------------------------------
 
-What I need:
+> **Data Sources**
 
-- CSV file of all airports in the Unites States including their geographic data ie. Latitude and Longitude.
-- CSV file of all outbound flights from each airport in the Unites States for the last 10 years lets say.
+*"What I Need"*
+
+CSV/JSON/EXCEL..
+
+- All airports in the Unites States including their geographic data ie. Latitude and Longitude.
+- All outbound flights from each airport in the Unites States for the last 10 years lets say.
 
 
 **Concept Outline**
