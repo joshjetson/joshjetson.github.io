@@ -44,19 +44,23 @@ My journey with technology, Linux, Programming.
 
 ---------------------------------------------------------------------
 
-**Work Ethic**
-
-*I am obsessed with computers and programming. When most people pack it in for the day I continue to work on anything I can. I really like the feeling of being mentally exhausted and crave it. It's currently 3am as I type this.*
-
-The structure of the way that I begin a project is by typing out all of the necessary things im going to need to make the thing work. First ill break up whatever it is im working on into section. Then ill type out as many details and caveats for each section as I can think of. Then ill start to put the logic that im going to need to make things work into simple words. After that I start to consider mechanically what the logic is going to look like in terms of code and what the best way to implement it might be and ill write it out as well but not in code just conceptually. Then finally ill start to code stuff out. I like to make sure I dont have a bunch of the same logic in different places. I like to reuse code and have less code as opposed to more. For certain projects ill make sure that I have scalability in the forefront of my mind as im coding. Then ill test and refactor my code as need be.
-
 <table rules=none>
  <tr>
 <td> <img src="https://imgur.com/s13uQen.gif"></td>
 <td> <h2><a href="https://joshjetson.github.io/flight_tracking">Flight Tracking</a></h2><br>An application to simulate tracking a flight</td>
 </tr>
+ <tr>
+<td> <img src="https://i.imgur.com/GYIQg9q.png"></td>
+<td> <h2><a href="https://joshjetson.github.io">Linux<br>Your Welcome</a></h2><br>A Very Simple Linux Guide And Reference</td>
+</tr>
 </table>
 
+
+**Work Ethic**
+
+*I am obsessed with computers and programming. When most people pack it in for the day I continue to work on anything I can. I really like the feeling of being mentally exhausted and crave it. It's currently 3am as I type this.*
+
+The structure of the way that I begin a project is by typing out all of the necessary things im going to need to make the thing work. First ill break up whatever it is im working on into section. Then ill type out as many details and caveats for each section as I can think of. Then ill start to put the logic that im going to need to make things work into simple words. After that I start to consider mechanically what the logic is going to look like in terms of code and what the best way to implement it might be and ill write it out as well but not in code just conceptually. Then finally ill start to code stuff out. I like to make sure I dont have a bunch of the same logic in different places. I like to reuse code and have less code as opposed to more. For certain projects ill make sure that I have scalability in the forefront of my mind as im coding. Then ill test and refactor my code as need be.
 
 
 
