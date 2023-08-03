@@ -54,6 +54,10 @@ My journey with technology, Linux, Programming.
 <td> <h2><a href="https://dconlrn.github.io/mlyw">Machine Learning<br>Your Welcome</a></h2><br>A Machine Learning Guide And Reference</td>
 </tr>
  <tr>
+<td> <img src="https://i.imgur.com/W0ZGUKU.jpeg"></td>
+<td> <h2><a href="https://joshjetson.github.io/rememberme">RememberMe</a></h2><br>An AI modeled after a loved one that you can interact with</td>
+</tr>
+ <tr>
 <td> <img src="https://imgur.com/s13uQen.gif"></td>
 <td> <h2><a href="https://joshjetson-flight-tracker-strmlt-fts-gb1qxl.streamlit.app/">Flight Tracking</a></h2><br>An application to simulate tracking a flight</td>
 </tr>

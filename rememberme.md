@@ -1,4 +1,9 @@
-# RememberMe
+<table rules=none>
+ <tr>
+<td> <img src="https://i.imgur.com/W0ZGUKU.jpeg"></td>
+<td> <h2><a href="https://joshjetson.github.io">RememberMe</a></h2><br>An AI modeled after a loved one that you can interact with</td>
+</tr>
+</table>
 
 ## What is RememberMe ?
 
