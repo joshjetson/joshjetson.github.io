@@ -47,7 +47,12 @@ My journey with technology, Linux, Programming.
 This is a section where I showcase the projects that I have worked on and explain the thinking behind some of them.
 
 
-
+<table rules=none>
+ <tr>
+<td> <img src="https://imgur.com/s13uQen.gif"></td>
+<td> <h2><a href="https://joshjetson.github.io/flight_tracking">Flight Tracking</a></h2><br>An application to simulate tracking a flight</td>
+</tr>
+</table>
 
 
 
