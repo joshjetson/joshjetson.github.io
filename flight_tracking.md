@@ -1,5 +1,9 @@
 ## Tracking a flight
 
+- [View the actual code for this project here](https://github.com/joshjetson/flight_tracker/blob/master/strmlt_fts.py)
+
+*The inspiration for this project came from a buddy who works at Ratheon. They handle a large portion of incoming and outgoing flight data in the United States.*
+
 ---------------------
 
 
