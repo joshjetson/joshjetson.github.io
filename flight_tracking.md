@@ -1,32 +1,36 @@
 ## Tracking a flight
 
+---------------------
+
 
 *If you wanted to build a program that tracked a flight where would you start ?*
 
-**Getting onboard instrument data somehow from an api**
+> **Live Onboard Instrument Data From An API**
 
-Pros:
+> *Pros:*
 
-- Real, live data.
+- Live data would mean we can track and actual flight in real time.
 - Could build the program and have a much greater chance of being able to sell it or have it be of use quicker.
 
-Cons:
+> *Cons:*
 
 - Onboard instrument data from an api is gonna be expensive.
 
+---------------------
 
-**Historical Data**
+> **Historical Data**
 
-Pros:
+> *Pros:*
 
 - The data is free and readily available.
 
-Cons:
+> *Cons:*
 
 - With historical data im not going to be able to track an actual flight im only going to be able to simulate the idea of tracking a flight.
 
+---------------------------
 
-**Decision**
+> **Decision**
 
 Since I don't have money for the former and I don't work for a company that can give me free access to an api ill just have to settle with using hitsorical data for the project.
 What ill do though is work out all of the logic so that if I ever do get access to live onboard instrument data I can just plug and play.
