@@ -50,58 +50,51 @@ CSV/JSON/EXCEL..
 **Concept Outline**
 
 
+*Based on the idea that im working with historical data. I need to make a program that feels like its tracking a live flight even though its just going off of historical flight records.*
 
-'''  The concept is that I have incoming and outgoing flight data. I want to track the location of each flight after it has left its
-point of origin. Each flight and flight destinations are going to individually need to be stored in objects.
-Im going to divide the tasks I need to accomplish into sections. I was thinking that by obtaining a csv file of all u.s cities inlcuding
-their latitude and longitudinal information that I might be able to track a flight and pinpoint its location based on
-its flight speed, time of departure, direction of departure, elapsed time since its departure relative from the point of departure
-and the point of destination with the understanding that based on the speed that the craft is flying it would reach its destination
-at a certain time traversing however many miles/km per hour in the process. Using a simple csv which contains all latitude and longitudinal
-information for each city in the u.s along with each cities zip code I could then track the flight and get a rough estimate of where it is
-assuming the most shortest distance flight path between the two points, origin and destination.'''
-'''  SECTION ONE:::::::::::::::::::
-         |__MAIN CONCEPTS:
-                     How do I plan on storing the information of each outgoing flight?
-                     #SIDENOTE
-                         *I say outgoing because I want to start looking at the problem
-                         *through the lens of the concept that all flights leaving from
-                         * somewhere are outgoing.
-                         *Ill consider incoming flight tracking after, since I imagine
-                         *that will be easier to track after I have tackled the task
-                         *of tracking the outgoing flights.
-                         *At present im also not going to consider connecting flights
-                         *but rather just fragment each flight and assume its destination
-                         *its final destination.
-                         *Once I tackle the problem from this perspective I will be
-                         *able to factor in connecting flight data and layover
-                         *time at a later point because conceptually it will be
-                         *an almost identical thing simply now with something new added.
+The user should be able to:
 
-                     IDEAS:
-                         Each outgoing flight is its own thing. What does an outgoing flight have?
+- Select a departure city
+- Select an arrival city
+- Recieve a prompt if the selected airport cities do not have flights to each other which notifies the user that the flight is not possible because there are no outbound flights from this specific airport to the other.
+- Get an ETA right after the user selects both the departure city and the arrival city.
+- Have a flight path from the selected airports be generated and viewable instantly on a map.
+- Click a button to be able to simulate the flight
+- Watch the simulated flight over a map 
 
-                         -A point of origin
-                         -A destination
-                         -A standard flight speed
-                         -A finite distance between its point of origin and its destination
-                         -Constantly evolving latitude and longitude data
-                         -Cities, Zip codes or geographical points such as bodies of water, 
-                          mountain ranges, national forrests, landmarks, etc...
-                          associated with its constantly evolving lat and long data
-                     OBJECT INFORMATION:
-                         -Each object needs to have static and dynamic information.
-                         _STATIC OBJECT INFO:
-                         __Origin City Name or Airport
-                         __Lattitude / Longitude data for origin city
+*Considerations*
 
-                         _DYNAMIC OBJECT INFO:
-                         __destination
-                         __Miles/KM From Origin
-                         __Miles/KM To Destination
-                         __Current Location::Lat/Long(updating..)
+- If there are no historical records of flights from one city to another that means those two airports dont have direct flights.
+- How im going to get the ETA from one airport to another ?
+> - What I will do is just get all of the data for 10 years of flights from one city to another and ill just take the average flight time per city from all the flights and put that in another file to access quicker so I dont have to make the average calculation every time.
+> - If I had live data this would be much easier actually cause I could use the speed the airplane was traveling at to calculate an ETA in intervals to create a live updated ETA.
 
-                     IDEA NOTES:
-                         Im going periodically need to make the program update it self with new data
-                         for each flight object. I have to increment the latitude and longitudinal
-                         data accordingly.'''
+*IDEAS:*
+
+> Each outgoing flight is its own thing. What does an outgoing flight have?
+
+- A departure city which has a name and is really just geographical points on a map.
+- An arrival (Destination) city which also has a name and is also just some points on a map.
+- A standard flight speed
+- A finite distance between its point of origin and its destination
+- Constantly evolving latitude and longitude data
+- Cities, Zip codes or geographical points such as bodies of water, mountain ranges, national forrests, landmarks, etc...associated with its constantly evolving lat and long data
+
+*OBJECT INFORMATION:*(Flight Object)
+
+- Each object needs to have static and dynamic information.
+
+> *STATIC OBJECT INFO:*
+> - Origin City / Destination City Name or Airport call letters (AKA IATA location identifier)
+> - Latitude / longitude data for origin city and destination city.
+
+> *DYNAMIC OBJECT INFO:*
+> - destination
+> - Miles/KM From Origin
+> - Miles/KM To Destination
+> - Current Location::Lat/Long(updating..)
+
+IDEA NOTES:
+
+Im going to periodically need to make the program update itself with new data for each flight object. I have to increment the latitude and longitudinal data accordingly.
+
