@@ -87,11 +87,13 @@ With the caveats in mind I need a pipeline that will (Hourly):
 > - Take the IP addresses and extract the geographic details
 > - Take the geographic details and add them into new columns that correspond to the correct rows containing their matching IP addresses and login data.
 - Update the CSV with the cleaned, enriched and organized new entries (Pandas)
-> I want other people to be able to use the data or contribute ill so ill also include all the git actions in the pipline.
+> I want other people to be able to use the data or contribute so ill also include all the git actions in the pipline after making a repository on github.
 > - Add the files to the staging area (Cronjob)
 > - Commit the files (Cronjob)
 > - Push the changes (Cronjob)
 
 
 
-I implemented all of this by setting up cronjobs in my crontab which runs (Hourly) a python script and all the git stuff automatically.
+I implemented all of this by setting up cronjobs in my crontab which run (Hourly) a python script and all the git stuff automatically.
+
+The End LOL
