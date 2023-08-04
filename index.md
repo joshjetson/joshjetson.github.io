@@ -38,7 +38,7 @@
 *The beginning*
 
 A few friends that I had who at the time, came from money in my eyes, had computers and they used to let me use from time to time. 
-I loved computer right from the jump and wished I had my own.
+I loved computers right from the jump and wished I had my own.
 I used to watch one of my friends dad work on computers and do some programming and wished I knew how to do what he was doing.
 We used Apple II machines in school sometimes and I wondered why we couldn't always just be using them for school to learn everything.
 
@@ -57,8 +57,9 @@ I slept a small amount of hours the first couple weeks because I just wanted to 
 
 *Introuduction to Linux*
 
-I learned what Unix was from watching the movie hackers.
-I was first introduced to Linux from reading Unix books and manuals in the public library.
+*I learned what Unix was from watching the movie hackers.
+I was first introduced to Linux from reading Unix books and manuals in the public library.I spotted a book on Linux next to a Unix manual "Linux A-Z".*
+
 Within the first month of having our own machine I attempted a dual boot with windows and Linux and quickly learned what a master boot record was and how it was related to a boot loader.
 I was trying to run Linux Slackware along side of Windows using the LILO bootloader.
 So I partitioned the 60gb hard and allocated 10gb's for Linux hoping my brother really wouldn't care or notice.
