@@ -14,13 +14,12 @@
 
 <div align="right">&#8609; <a href="#background" title="Background">Background</a></div>
 
-<div align="right">&#8609; <a href="#portfolio" title="Portfolio">Work Ethic and Portfolio</a></div>
+<div align="right">&#8609; <a href="#portfolio" title="Portfolio">Portfolio</a></div>
 
-<div align="right">&#8609; <a href="#drive" title="Drive">Drive and Mindset</a></div>
+<div align="right">&#8609; <a href="#drive" title="Drive">Work Style</a></div>
 
 <div align="right">&#8609; <a href="#interests" title="Interests">Personal Interests</a></div>
 
-<div align="right">&#8609; <a href="#education" title="Education">Education</a></div>
 
 
 
@@ -31,9 +30,8 @@
 
 ---------------------------------------------------------------------
 
-I was born and raised in Los Angeles, California and lived there till I was 35.
-I was an inner city kid and experienced much more bad then good but im still really optimistic and generally a happy person.
-
+Birthplace: Los Angeles, CA
+> I lived in Los Angeles till I was 35 and was raised as a poor inner city kid.
 
 My journey with technology, Linux, Programming.
 
@@ -72,24 +70,46 @@ My journey with technology, Linux, Programming.
 </table>
 
 
-**Work Ethic**
-
-*I am obsessed with computers and programming. When most people pack it in for the day I continue to work on anything I can. I really like the feeling of being mentally exhausted and crave it. It's currently 3am as I type this.*
-
-The structure of the way that I begin a project is by typing out all of the necessary things im going to need to make the thing work. First ill break up whatever it is im working on into section. Then ill type out as many details and caveats for each section as I can think of. Then ill start to put the logic that im going to need to make things work into simple words. After that I start to consider mechanically what the logic is going to look like in terms of code and what the best way to implement it might be and ill write it out as well but not in code just conceptually. Then finally ill start to code stuff out. I like to make sure I dont have a bunch of the same logic in different places. I like to reuse code and have less code as opposed to more. For certain projects ill make sure that I have scalability in the forefront of my mind as im coding. Then ill test and refactor my code as need be.
 
 
 
 
 <a id="drive"></a>
 
-## Drive
+## Work Style
 
 -----------------------
 
-Talk about the idea of being over confident and as a result becoming married to an idea and how it's more valuable in a practical sense to have the skill of recognizing a better idea. The skill of recognizing that an idea is better is more valuable than confidence. It's a massive skill to be able to see that an idea is superior to yours in a way that removes your ego from the equation to simply get something done quicker or better.
+*I am obsessed with computers and programming. When most people pack it in for the day I continue to work on anything I can. I really like the feeling of being mentally exhausted and crave it. It's currently 3am as I type this.*
 
-Repeatability, being able to teach others using every day speech in a deconstructed fashion
+The structure of the way that I begin a project
+First really understand the actual idea or problem that is trying to be solved then:
+
+1. Type out all of the necessary things im going to need to make the thing work.
+2. Break up whatever it is im working on into section. 
+3. Then ill type out as many details and caveats for each section as I can think of.
+3. Then ill use simple words to start puttting the logic together that im going to need to make things work.
+4. After that I start to consider mechanically what the logic is going to look like in terms of code 
+> ie. 
+> - Ill need to import these modules to handle a, b and c
+> - Many people are going to use this code ok ill need a class so people could instantiate a bunch of these objects.
+> - In the initializer ill have x, y, z 
+> - Should I use a loop or recursion in this one method. Ok ill test both and time them maybe use a generator in this other part.
+> - We are going to be storing this large thing in memory ok maybe ill chop it up make the program faster.
+> - Alright ill catch this one exception over here.
+> - Im gonna need some conditions to check this other thing at the gate
+> - Ok where in this thing could someone do something stupid let me make it so they can't do something stupid.
+> - etc..
+5. Think about the best way to implement something.
+6. Then finally ill start to code stuff out.
+7. Ill check to make sure I dont have a bunch of the same logic all over the place if I see code like that in a Function or Method many times ill just add another paramater and refactor.
+8. With step 7 in mind ill see what parts of the code I could reuse somewhere else and if it's a good or bad idea for whatever reason.
+9. Sometimes I might start considering if the thing is scallable or not.
+10. Ultimately I will test the code and refactor as need be.
+
+
+*I work hard at not falling into the trap of being  over confident and as a result becoming married to an idea. The skill of recognizing that someone elses idea is better than yours is more valuable than over confidence in your own idea. It's a massive skill to be able to see that an idea is superior to yours in a way that removes your ego from the equation to simply get something done quicker or better.*
+
 
 
 <a id="interests"></a>
@@ -98,9 +118,50 @@ Repeatability, being able to teach others using every day speech in a deconstruc
 
 --------------------------
 
+- My Family
+- Increasing Productivity
+- Simple Explanations
+- Simple Documentation
+- Less Assumptions
+- Python
+- Linux
+- Machine Learning
+- AI
+- Neural Networks
+- Data Science
+- Zsh
+- CLI's
+- Vim
+- Cmus
+- Markdown
+- Automation
+- Engineering
+- Physical Tools
+- Improving Things
+- Cyberdecks!!!
+- Mechanical Keyboards
+- Graphic Design
+- Sound Design
+- Anything Mechanical
+- Movies
+- Documentaries
+- Board Games
+- Typical Outdoor Activitys
+- Jazz, Jazz-Funk
+- Making Jazz-Funk
+- Ableton Live
+- Midi Controllers
+- Fully Weighted Midi Contollers
+- Audio Gear
+- Vintage Synthesizers
+- 1/4 inch tape and above Reel to Reels
+- Beyer Dynamic DT770's
+- Vestax Mixers
+- Technic 1200's
+- Reference Speakers (Passive or Active)
+- Stickers / Posters / T-Shirts  related to my interests
+- Nintendo
+- Modding Consoles
 
-<a id="education"></a>
 
-## Education
-
---------------------------------
+That's the bulk of my interests and for 40 years on earth I feel like its a pretty small list.
