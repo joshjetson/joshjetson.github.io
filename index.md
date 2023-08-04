@@ -32,46 +32,48 @@
 
 *This section mostly details my historical relationship with computers*
 
-- Birthplace: Los Angeles, CA
+- Birthplace: Los Angeles, CA (1983)
 > I lived in Los Angeles till I was 35 and was raised as a poor inner city kid.
 
-*The beginning*
+**The beginning**
 
-A few friends that I had who at the time, came from money in my eyes, had computers and they used to let me use from time to time. 
-I loved computers right from the jump and wished I had my own.
-I used to watch one of my friends dad work on computers and do some programming and wished I knew how to do what he was doing.
-We used Apple II machines in school sometimes and I wondered why we couldn't always just be using them for school to learn everything.
+> I had a couple friends who at the time, came from money in my eyes and had computers which they were kind enough to share with me when I visted them. 
+> I loved computers right from the jump and wished I had my own.
+> I used to watch one of my friends dad work on computers and do some programming and wished I knew how to do what he was doing.
+> We used Apple II machines in school sometimes and I wondered why we couldn't always just be using them for school to learn everything.
 
-*A Machine of our own*
+**A Machine of our own**
 
-When I was 15 years old in 1998 my brother got a job and bought a Dell which he paid monthly for.
-I was waiting on the doorstep every day for it and was there the moment it was delivered.
-I brought the box inside the apartment and unboxed then set the machine up on a desk my brother had set up a few days prior.
-I called my brother at work and asked him if I could turn the machine on. He said "NO! Wait till I get home you shouldn't have unboxed it leave it alone!"
-I waited till he got home and watched him go through the setup steps of personalizing the windows 98 environment.
-I hovered over his back the entire time and after an hour or so on the machine he stopped moving the mouse around and kind of just looked at the screen.
-Then he said angrily "Fine! Use it!" and got up and walked away.
-I sat down immediately and didn't get up for at least 8 - 12 hours.
-I slept a small amount of hours the first couple weeks because I just wanted to be on the machine all day.
+> When I was 15/16 years old in 98/99 my brother got a job and bought a Dell which he paid monthly for.
+> I was waiting on the doorstep every day for it and was there the moment it was delivered.
+> I brought the box inside the apartment and unboxed, then set the machine up on a desk.
+> I called my brother at work and asked him if I could turn the machine on. He said "NO! Wait till I get home you shouldn't have unboxed it, leave it alone!"
+> I waited till he got home and watched him go through the setup steps of personalizing the windows 98 environment.
+> I hovered over his back the entire time and after an hour or so of him being on the machine he stopped moving the mouse around and kind of just starred at the screen.
+> Then he said, angrily, "Fine! Use it!" and got up and walked away.
+> I sat down immediately and didn't get up for at least 8 - 12 hours.
+> I slept a small amount of hours the first couple weeks because I just wanted to be on the machine all day.
 
 
-*Introuduction to Linux*
+**Introduction to Linux**
 
-*I learned what Unix was from watching the movie hackers.
-I was first introduced to Linux from reading Unix books and manuals in the public library.I spotted a book on Linux next to a Unix manual "Linux A-Z".*
+*I learned what Unix was from watching the movie hackers. I was first introduced to Linux from reading Unix books and manuals in the public library.I spotted a book on Linux next to a Unix manual "Linux A-Z". The idea of having my own Unix like operating system was enough to make me think that maybe I too could be a hacker if I learned enough.I wanted to be 1337*
 
-Within the first month of having our own machine I attempted a dual boot with windows and Linux and quickly learned what a master boot record was and how it was related to a boot loader.
-I was trying to run Linux Slackware along side of Windows using the LILO bootloader.
-So I partitioned the 60gb hard and allocated 10gb's for Linux hoping my brother really wouldn't care or notice.
-It was a disaster. I ended up getting all 9's across the entirety of the screen.
-I didn't know what to do and when my brother came home he saw what I did and looked at me and just said "FIX IT!" then went to his room.
 
-I pulled the hard drive out of the machine and hopped on the bus to the local internet cafe so I could fish around the internet to see if I could find some answers.
-I talked the internet cafe owner into allowing me to disasemble one of his test machines so I could attach my hard drive on as a slave in hopes of sorting the issue out.
-Long story short I fixed the problem later that day shortly before the shop closed at night.
-There began my Linux journey.
+> Within the first month of finally having our own computer I made an attempt to have a dual boot system with Windows and Linux. 
+> As a result, I quickly I learned what a master boot record was and how it was related to a boot loader.
+> I was trying to run Linux Slackware along side of Windows using the LILO bootloader.
+> So I partitioned the 60gb hard and allocated 10gb's for Linux hoping my brother really wouldn't care or notice.
+> It was a disaster! The machine wouldn't boot into either operating system and something was producing all 9's across the entire monitor, repeating.
+> I didn't know what to do and when my brother came home and saw what I did he looked at me and just said, "FIX IT!" then went to his room.
 
-Now in retrospec if I had to create a Linux slogan based on my Linux journey it might be something like:
+
+> I pulled the hard drive out of the machine and hopped on the bus to the local internet cafe so I could fish around the internet to see if I could find some answers.
+> I talked the internet cafe owner into allowing me to disasemble one of his test machines so I could attach my hard drive on as a slave in hopes of sorting the issue out.
+> Long story short I fixed the problem later that day shortly before the shop closed at night.
+> There began my Linux journey.
+
+*Now in retrospec if I had to create a Linux slogan based on my Linux journey it might be something like:*
 
 **Linux**
 
@@ -80,6 +82,16 @@ Now in retrospec if I had to create a Linux slogan based on my Linux journey it 
 
 
 > 25 years later here I am with 5 different machines all running Linux.
+
+**Sidenote:**
+
+> Linux and Computer Programming has always been a very personal journey. In fact I only recently made one friend (2023) who I can talk to about Linux or programming and he's in his 60's his name is Pat.
+> In my neighborhood it wasn't cool that you were into computers and you needed to be cautious about the words you used around people if you wanted friends.
+> My family and friends have no clue what I have been doing with computers all of these years.
+> As a result of this I have no network of piers and am only now finding out how important piers can be when you want to find actual work in the field as opposed to just being obsessed on your own time.
+
+
+
 
 <a id="portfolio"></a>
 
