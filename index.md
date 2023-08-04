@@ -139,8 +139,28 @@
 
 *I am obsessed with computers and programming. When most people pack it in for the day I continue to work on anything I can. I really like the feeling of being mentally exhausted and crave it. It's currently 3am as I type this.*
 
-The structure of the way that I begin a project
-First really understand the actual idea or problem that is trying to be solved then:
+I have three ways of beating fatigue, staying interested and tricking my brain to do more.
+
+**Standing**
+
+<img src="https://i.imgur.com/WsB6E5H.jpeg">
+
+
+**Sitting**
+
+<img src="https://i.imgur.com/OuS5dio.jpeg">
+
+
+
+**Laying Down**
+
+<img src="https://i.imgur.com/WdUHQ6m.jpeg">
+
+
+
+The structure of the way that I begin a project.
+
+*First really understand the actual idea or problem that is trying to be solved then:*
 
 1. Type out all of the necessary things im going to need to make the thing work.
 2. Break up whatever it is im working on into section. 
