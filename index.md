@@ -101,12 +101,16 @@
 
 <table rules=none>
  <tr>
+<td> <img src="https://i.imgur.com/Yky4kVY.png"></td>
+<td> <h2><a href="https://dconlrn.github.io">The Deconstructed<br>Learning System</a></h2><br>A learning system that can be used and applied to help you learn anything. (In The Works)</td>
+</tr>
+ <tr>
 <td> <img src="https://i.imgur.com/h3VBZMf.png"></td>
 <td> <h2><a href="https://joshjetson.github.io/urfa">Universal Repository<br>of<br>Flagged<br>IP Addresses</a></h2><br>An ever growing lake of IP addresses from wannabe hackers</td>
 </tr>
  <tr>
 <td> <img src="https://i.imgur.com/GYIQg9q.png"></td>
-<td> <h2><a href="https://dconlrn.github.io/lyw">Linux<br>Your Welcome</a></h2><br>A Very Simple Linux Guide And Reference</td>
+<td> <h2><a href="https://dconlrn.github.io/lyw">Linux<br>Your Welcome</a></h2><br>A Very Simple Linux Guide And Reference (In The Works)</td>
 </tr>
 <tr>
 <td> <img src="https://raw.githubusercontent.com/joshjetson/SCDF/master/pics/controllerdf.png"></td>
@@ -114,11 +118,11 @@
  </tr>
  <tr>
 <td> <img src="https://i.imgur.com/CfWaqUg.png"></td>
-<td> <h2><a href="https://dconlrn.github.io/mlyw">Machine Learning<br>Your Welcome</a></h2><br>A Machine Learning Guide And Reference</td>
+<td> <h2><a href="https://dconlrn.github.io/mlyw">Machine Learning<br>Your Welcome</a></h2><br>A Machine Learning Guide And Reference (In The Works)</td>
 </tr>
  <tr>
 <td> <img src="https://i.imgur.com/W0ZGUKU.jpeg"></td>
-<td> <h2><a href="https://joshjetson.github.io/rememberme">RememberMe</a></h2><br>An AI modeled after a loved one that you can interact with</td>
+<td> <h2><a href="https://joshjetson.github.io/rememberme">RememberMe</a></h2><br>An AI modeled after a loved one that you can interact with (Prelim Stages)</td>
 </tr>
  <tr>
 <td> <img src="https://imgur.com/s13uQen.gif"></td>
