@@ -52,6 +52,10 @@
 <td> <img src="https://raw.githubusercontent.com/joshjetson/SCDF/master/pics/controllerdf.png"></td>
 <td> <h2><a href="https://github.com/joshjetson/SCDF">Controller DF</a></h2><br>A Python library which spins up a quick webapp that has features to manipulate a data frame</td>
  </tr>
+<tr>
+<td> <img src="https://i.imgur.com/R596dvB.png"></td>
+<td> <h2><a href="https://joshjetson.github.io/pfapi">Azure PlayFab API Diagram</a></h2><br>A simple diagram to help understand Azure PlayFab API</td>
+ </tr>
  <tr>
 <td> <img src="https://i.imgur.com/CfWaqUg.png"></td>
 <td> <h2><a href="https://dconlrn.github.io/mlyw">Machine Learning<br>You’re Welcome</a></h2><br>A Machine Learning Guide And Reference (In The Works)</td>
