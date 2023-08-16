@@ -21,7 +21,7 @@ num_list = [1, 1, 3, 4, 7, 3, 7]
 
 <summary>
 
-Solution
+#### Solution
 
 </summary>
 
