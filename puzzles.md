@@ -17,7 +17,13 @@
 num_list = [1, 1, 3, 4, 7, 3, 7]
 ```
 
-<details><summary>Solution</summary>
+<details open>
+
+<summary>
+
+Solution
+
+</summary>
 
 
 > A long solution
