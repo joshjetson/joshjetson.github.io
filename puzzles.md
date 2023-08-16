@@ -7,7 +7,7 @@
 </table>
 
 
-
+------------------------
 
 **Find the singular item in a list**
 
@@ -17,13 +17,9 @@
 num_list = [1, 1, 3, 4, 7, 3, 7]
 ```
 
-<details open>
 
-<summary>
+*Solution*
 
-#### Solution
-
-</summary>
 
 
 > A long solution
@@ -58,4 +54,4 @@ result = lambda x: list(filter(lambda y: (x.count(y) == 1), x))
 result(num_list)
 ```
 
-</details>
+-------------------------------
