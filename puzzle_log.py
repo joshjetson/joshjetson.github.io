@@ -43,7 +43,6 @@ root.left.right = Node(5)
 print ("Height of tree is %d" %(maxDepth(root)))
 
 """ 
-    Author   : Ajinkya Sonawane
 """
 class Node:
     def __init__(self,data,level,fval):
