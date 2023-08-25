@@ -150,6 +150,7 @@ start = Node(start,0,0)
             self.open.sort(key = lambda x:x.fval,reverse=False)
 puz = Puzzle(3)
 puz.process()
+# Added
 ###############################################################
 #Find the singular item in a list
 #The count method will count how many times something is in an array in python.
@@ -214,6 +215,8 @@ for d in days:
   #A more dynamic solution
   result = lambda x, y: list(filter(lambda z: (len(z) == y), x))
   result(weekdays, 6)# = ['Monday', 'Friday', 'Sunday']
+
+
 # Write a Python program to add two given lists using map and lambda
 num1 = [1,2,3]
 num2 = [4,5,6]

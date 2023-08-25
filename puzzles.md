@@ -116,10 +116,13 @@ combine = [*map(lambda a, b: a + b, num1, num2)]
 
 
 ```python
-def grade_calc(loop=None, students=None, grades=[]):
+def grade_calc(loop=None, students=[]):
   num = input(f'How many students are there ? ') if not loop else None
   if not loop and not num.isnumeric(): return grade_calc()
   loop = num
+  query = input(f'Enter each students name one by one using letters only {loop} students to go: ')
+  grade =  input(f"Input {query}'s numerical grade" )
+  if query.isalpha()
 
 
 
