@@ -178,20 +178,24 @@ A permit technician must know or be willing to learn:
 
 
 Permit technicians agency/department partnership
+*How a permit technician works with internal and external departments*
 
-> Internal
+> **Internal**
+
 - Building Department
-> - Building Inspectors
-> - Plans Examiners
-> - Code Enforcement Officers (Can be in other departments such as planning department or police department)
-- Planning Department (The one department the building department works with on a daily basis)
-- Engineering/Public Works Department
+> - Building Inspectors ( For matters related to building inspections )
+> - Plans Examiners ( For matters related to the submittal of building plans and documents )
+> - Code Enforcement Officers (Can be in other departments such as planning department or police department), ( For matters related to violation cases and submittals to abate code cases. In order to abate most code cases it will involve the issuance of a permit through the building department. )
 
-> External
-- Fire Department (On almost a daily basis work with them)
-- Environmental Health
-- Environmental Hazmat
-- School Districts
-- Air Pollution Districts
-- Utility Districts
-- Police Department
+- Planning Department (The one department the building department works with on a daily basis), ( coordinating permit submittals and may include responding to basic planning questions) Understanding the planning departments role within the organization is necessary to perform the essential job functions properly.
+- Engineering/Public Works Department ( Primarily by providing support with encroachment permits. ie. Any work taking place in the public right of way and building permit submittals. )
+
+> **External**
+
+- Fire Department (On almost a daily basis work with them since most permit submittals and projects in progress are dependent on the fire departments review and inspection approvals. This is more so the case for projects requiring fire suppression and life safety systems. )
+- Environmental Health ( For new and alterations to food service facilities. )
+- Environmental Hazmat ( For projects using and storing hazardous materials. )
+- School Districts ( For new and additions to structures for the purpose of school impact fee assessments )
+- Air Pollution Districts ( For projects producing air pollutants and most commonly for demolition of commercial and residential structures. )
+- Utility Districts ( For most all new projects as it relates to utility connection requirements. )
+- Police Department ( Seldom do they get involved in projects. They primarily get involved in projects such as new subdivisions, commercial, hotels, motels and multi-family projects. Their concerns are mostly related to security and safety. )
