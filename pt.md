@@ -114,7 +114,9 @@ Ultimately try to get a distribution of the workload for a permit technician in 
 **The role of a permit technician**
 
 > Employee of (City, Town, County, or State) who typically works within the building department.
+
 - Processes building permit applications.
+
 - Issues building permits
 *(Achieved through the building departments permit software unique to that organization)*
 > Common Permit Software
@@ -123,7 +125,8 @@ Ultimately try to get a distribution of the workload for a permit technician in 
 > - HDL
 > - Axiom it solutions
 > - Tyler Technologies
--
+
+
 - Set the tone to the customer service experience in regards to the customer and building department relationship.
 
 **General Questions a Permit Tech may receive**
