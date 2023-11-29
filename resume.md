@@ -24,7 +24,16 @@
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+2019-2023 (Current)
+:   **Freelance, Software Developer and Data Scientist **; Virtualraremedia (Remote)
+
+    *Description: Develop different pieces of software on a client to
+     client bases as need be. Primarily using python, django,
+     a personal dedicated linux server, postgresql, fastapi,
+     docker and any other tools essential to getting the job done*
+> - One
+> - One
+> - One
 
 Short text containing the type of work done, results obtained,
 lessons learned and other remarks. Can also include lists and
