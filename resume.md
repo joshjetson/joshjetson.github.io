@@ -1,3 +1,10 @@
+<script type="module">
+    import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js';
+      mermaid.initialize({
+          startOnLoad: true,
+              theme: 'dark'
+                });
+</script>
 
 <pre class="mermaid">
   graph TD;
