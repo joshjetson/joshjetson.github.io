@@ -1,13 +1,22 @@
-# Joshua Dario
+<p align="center">
+
+<img src="https://i.imgur.com/X44BMVl.png" width="200" height="200">
+
+
+</p>
+
+<h1 align="center"> Joshua Dario </h1>
 
 ----------------------------------------------------
 
 
-|1 MyAddress            |            email@example.com|
+|Email:                 |    josh@virtualraremedia.com|
 |:----------------------|----------------------------:|
-|MyTown 1000            |              @twitter_handle|
+|Website:               | https://joshjetson.github.io|
 |:----------------------|----------------------------:|
-|MyCountry              |             1800 my-phone-nr|
+|Contact:               |                   2132005894|
+|:----------------------|----------------------------:|
+|City:                  |                 Schertx, Tx |
 
 ----------------------------------------------
 
