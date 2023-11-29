@@ -1,6 +1,5 @@
 
-
-```mermaid
+<pre class="mermaid">
   graph TD;
     B{YourPlayFabAPI_Calls.cs};
     D[YourMainGameCode.cs] --> B;
@@ -17,16 +16,16 @@
     G --> |CALL CONVERTED TO  API REQUEST| g[PlayFabHttp.MakeApiCall];
     H --> |CALL CONVERTED TO  API REQUEST| g;
     g[PlayFabHttp.MakeApiCall] <--> A[Unity.EnginePurchasing.cs];
-```
+</pre>
 
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
+<pre class="mermaid">
+  graph TD
+      A-->B
+      A-->C
+      B-->D
+      C-->D
+</pre>
 
 Joshua Dario
 ============
