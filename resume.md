@@ -1,26 +1,32 @@
 
 
 ```mermaid
-
-flowchart TD;
-B{YourPlayFabAPI_Calls.cs}
-D[YourMainGameCode.cs] --> B
-subgraph O[WHERE THE API CALLS AND LOGIC EXIST]
-B --> |METHOD CALLAND ARGUMENTSIF REQUIRED| J[METHOD CALL:PlayFabAdminAPI.'MethodName']
-J --> |GENERAL STRUCTURE OF ARGUMENTS| L((new 'MethodNameRequest'ie. PlayFabId = VAR Response/Result =  Lambda))
-B --> |METHOD CALLAND ARGUMENTSIF REQUIRED| K[METHOD CALL:PlayFabClientAPI.'MethodName']
-K --> |GENERAL STRUCTURE OF ARGUMENTS| L
-end
-L --> |METHOD CALL| E[PlayFabAdminAPI.cs]
-L --> |METHOD CALL| F[PlayFabClientAPI.cs]
-E[PlayFabAdminAPI.cs] <-->  G[PlayFabAdminModels.cs]
-F[PlayFabClientAPI.cs] <--> H[PlayFabClientModels.cs]
-G --> |CALL CONVERTED TO  API REQUEST| g[PlayFabHttp.MakeApiCall]
-H --> |CALL CONVERTED TO  API REQUEST| g
-g[PlayFabHttp.MakeApiCall] <--> A[Unity.EnginePurchasing.cs]
-
+  graph TD;
+    B{YourPlayFabAPI_Calls.cs};
+    D[YourMainGameCode.cs] --> B;
+    subgraph O[WHERE THE API CALLS AND LOGIC EXIST];
+    B --> |METHOD CALLAND ARGUMENTSIF REQUIRED| J[METHOD CALL:PlayFabAdminAPI.'MethodName'];
+    J --> |GENERAL STRUCTURE OF ARGUMENTS| L((new 'MethodNameRequest'ie. PlayFabId = VAR Response/Result =  Lambda));
+    B --> |METHOD CALLAND ARGUMENTSIF REQUIRED| K[METHOD CALL:PlayFabClientAPI.'MethodName'];
+    K --> |GENERAL STRUCTURE OF ARGUMENTS| L;
+    end;
+    L --> |METHOD CALL| E[PlayFabAdminAPI.cs];
+    L --> |METHOD CALL| F[PlayFabClientAPI.cs];
+    E[PlayFabAdminAPI.cs] <-->  G[PlayFabAdminModels.cs];
+    F[PlayFabClientAPI.cs] <--> H[PlayFabClientModels.cs];
+    G --> |CALL CONVERTED TO  API REQUEST| g[PlayFabHttp.MakeApiCall];
+    H --> |CALL CONVERTED TO  API REQUEST| g;
+    g[PlayFabHttp.MakeApiCall] <--> A[Unity.EnginePurchasing.cs];
 ```
 
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 Joshua Dario
 ============
