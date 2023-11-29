@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
      <head>
-         <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+<script type="module">
+    import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js';
+      mermaid.initialize({
+          startOnLoad: true,
+              theme: 'dark'
+                });
+               mermaid.initialize(config);
+               window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script> -->
              </head>
                
              <body>
@@ -14,17 +23,17 @@
                 </div>
                   
              </body>
-             <script>
-               var config = {
-                     startOnLoad:true,
-                     theme: 'forest',
-                     flowchart:{
-                                   useMaxWidth:false,
-                                   htmlLabels:true
-                               }
-               };
-               mermaid.initialize(config);
-               window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-             </script>
+             <!-- <script> -->
+               <!-- var config = { -->
+                     <!-- startOnLoad:true, -->
+                     <!-- theme: 'forest', -->
+                     <!-- flowchart:{ -->
+                                   <!-- useMaxWidth:false, -->
+                                   <!-- htmlLabels:true -->
+                               <!-- } -->
+               <!-- }; -->
+               <!-- mermaid.initialize(config); -->
+               <!-- window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid')); -->
+             <!-- </script> -->
 
 </html>
