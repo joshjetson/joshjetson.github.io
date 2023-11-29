@@ -1,98 +1,16 @@
-<script type="module">
-    import mermaid from 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js';
-      mermaid.initialize({
-          startOnLoad: true,
-              theme: 'dark'
-                });
-</script>
+#Joshua Dario
 
-<pre class="mermaid">
-  graph TD;
-    B{YourPlayFabAPI_Calls.cs};
-    D[YourMainGameCode.cs] --> B;
-    subgraph O[WHERE THE API CALLS AND LOGIC EXIST];
-    B --> |METHOD CALLAND ARGUMENTSIF REQUIRED| J[METHOD CALL:PlayFabAdminAPI.'MethodName'];
-    J --> |GENERAL STRUCTURE OF ARGUMENTS| L((new 'MethodNameRequest'ie. PlayFabId = VAR Response/Result =  Lambda));
-    B --> |METHOD CALLAND ARGUMENTSIF REQUIRED| K[METHOD CALL:PlayFabClientAPI.'MethodName'];
-    K --> |GENERAL STRUCTURE OF ARGUMENTS| L;
-    end;
-    L --> |METHOD CALL| E[PlayFabAdminAPI.cs];
-    L --> |METHOD CALL| F[PlayFabClientAPI.cs];
-    E[PlayFabAdminAPI.cs] <-->  G[PlayFabAdminModels.cs];
-    F[PlayFabClientAPI.cs] <--> H[PlayFabClientModels.cs];
-    G --> |CALL CONVERTED TO  API REQUEST| g[PlayFabHttp.MakeApiCall];
-    H --> |CALL CONVERTED TO  API REQUEST| g;
-    g[PlayFabHttp.MakeApiCall] <--> A[Unity.EnginePurchasing.cs];
-</pre>
+----------------------------------------------------
 
 
-<pre class="mermaid">
-  graph TD
-      A-->B
-      A-->C
-      B-->D
-      C-->D
-</pre>
+|1 MyAddress            |            email@example.com|
+|:----------------------|----------------------------:|
+|MyTown 1000            |              @twitter_handle|
+|:----------------------|----------------------------:|
+|MyCountry              |             1800 my-phone-nr|
 
-**Welcome**
+----------------------------------------------
 
-> Testing some formatting
-
-- One
-- Two
-- Three
-
-
-
-
-
-```mermaid!
-graph LR
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
-```
-
-```mermaid!
-pie title Pets adopted by volunteers
-  "Dogs" : 386
-  "Cats" : 85
-  "Rats" : 35
-```
-
-@startmermaid
-pie title Pets adopted by volunteers
-  "Dogs" : 386
-  "Cats" : 85
-  "Rats" : 35
-@endmermaid
-
-
-
-Joshua Dario
-============
-
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
-
-Education
----------
-
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
 
 Experience
 ----------
@@ -163,3 +81,18 @@ Extra Section, Call it Whatever You Want
 * Random tidbit
 
 * Other sort of impressive-sounding thing you did
+
+Education
+---------
+
+2010-2014 (expected)
+:   **PhD, Computer Science**; Awesome University (MyTown)
+
+    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
+     Estimation Problem*
+
+2007-2010
+:   **BSc, Computer Science and Electrical Engineering**; University of
+    HomeTown (HomeTown)
+
+    *Minor: Awesomeology*
