@@ -6,6 +6,11 @@
 </p>
 
 <h1 align="center"> Joshua Dario </h1>
+<h5 align="center"> 
+
+A 25 year linux user with a passion for computer programming, software development and all things data science.
+
+</h5>
 
 ----------------------------------------------------
 
@@ -16,7 +21,7 @@
 |:----------------------|----------------------------:|
 |Contact:               |                   2132005894|
 |:----------------------|----------------------------:|
-|City:                  |                 Schertx, Tx |
+|City:                  |                 Schertz, Tx |
 
 ----------------------------------------------
 
