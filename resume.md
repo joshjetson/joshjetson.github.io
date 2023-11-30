@@ -6,12 +6,12 @@
 </p>
 
 <h1 align="center"> Joshua Dario </h1>
-<h2 align="center"> 
+<h4 align="center"> 
 <i>
 A 25 year linux user <br>with a passion for computer programming,<br>software development and all things data science.
 
 </i>
-</h2>
+</h4>
 
 ----------------------------------------------------
 
@@ -31,7 +31,7 @@ Experience
 ----------
 
 2019-2023 (Current)
-:   **Freelance, Software Developer and Data Scientist**; Virtualraremedia (Remote)
+:   **Freelance, Software Developer and Data Scientist**; (Virtualraremedia)
 
     *Develop different pieces of software solutions on a client to
      client bases as need be. Primarily using:*
@@ -44,10 +44,31 @@ Experience
 > - Git
 > - Vim
 > - Dedicated Linux Server (Kernel: 6.1.53-1-MANJARO)
+
     *Providing services in the range of:*
+
 > - Analyzing complex data sets
 > - Creating tailored data pipelines
 > - Communicating clear insights and meaning through attractive data visualizations
+
+
+May-2023
+:   **Intern, Devops Consultant**; (brokee.io)
+
+    *Implemented multiple systems focused on user monitoring.
+     Tested and ultimately integrated in Kubernetes cluster. Tools utilized:*
+> - Docker
+> > *Containerized each unique client exam session*
+> - TTYD
+> > *Broadcasted Terminal exam sessions respective to each container*
+> - Inotify
+> > *Performed actions upon specific file manipulation*
+> - Asciinema
+> > *Captured full exam session visually*
+> - SCP
+> > *Sent modified files upon Inotify event to external non containerized server to be analyzed and evaluated*
+
+
 
 Short text containing the type of work done, results obtained,
 lessons learned and other remarks. Can also include lists and
@@ -117,14 +138,14 @@ Extra Section, Call it Whatever You Want
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+2022-2023
+:   **Certificate, Machine Learning**; (IBM/Coursera)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+2022-2023
+:   **Certificate, Python Deep Dive**; (Udemy)
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+2022-2023
+:   **Certificate, Data Structures & Algorithms w/Python**; (Udacity)
 
-    *Minor: Awesomeology*
+2009-2013
+:   **BSc, Computer Science**; CSULB (LongBeach,CA)
