@@ -6,11 +6,12 @@
 </p>
 
 <h1 align="center"> Joshua Dario </h1>
-<h5 align="center"> 
+<h2 align="center"> 
+<i>
+A 25 year linux user <br>with a passion for computer programming,<br>software development and all things data science.
 
-A 25 year linux user with a passion for computer programming, software development and all things data science.
-
-</h5>
+</i>
+</h2>
 
 ----------------------------------------------------
 
@@ -41,7 +42,12 @@ Experience
 > - Docker
 > - Apache
 > - Git
+> - Vim
 > - Dedicated Linux Server (Kernel: 6.1.53-1-MANJARO)
+    *Providing services in the range of:*
+> - Analyzing complex data sets
+> - Creating tailored data pipelines
+> - Communicating clear insights and meaning through attractive data visualizations
 
 Short text containing the type of work done, results obtained,
 lessons learned and other remarks. Can also include lists and
