@@ -1,5 +1,58 @@
 
+## Project Scope
 
+**I. Synopsis**
+
+*This project is being undertaken in order to provide a platform in which users can:*
+
+- Have a software application accessible to them which provides:
+> - Authentication respective to the user
+> - Financial sections pertaining to their business finances in the form of dashboards which allow:
+> > - Financial record keeping
+> > - Visual representations of said finances in the form of Graphs, Charts and Metrics.
+> > - Statistical analysis of said finances in various visual forms, including but not limited to Key Performance Indicators
+> > - Addition and modification of and to said financial records
+
+
+**II. Requirements**
+
+- Adequate Funding
+- Team of Developers
+- Design Team Managing and Responsible for The Visual Aesthetic of The Application
+- Project Consultant
+- Project Management
+- Project Manager
+- Suitable Development Framework
+- Stable, Suitable Development Environment
+- Secure Method of Environment Access
+- Sufficient Environment Storage and Memory
+- Database Development Personnel
+- Quality Assurance Personnel
+- Deployment DevOps Personnel
+
+
+**III. Deliverables**
+
+- A Development Environment
+> - STATUS: Resolved
+
+- A suitable, modern development framework capable of creating a progressive web application which is scalable
+> - STATUS: Resolved
+
+- A method of managing and keeping track of the projects code base
+> STATUS: Resolved
+
+- A secure and reliable relational database setup and running in the development environment capable of communicating with the development framework and back end
+> STATUS: Resolved
+
+- An externally available setup suitable for end user, client and development testing
+> STATUS: Resolved
+
+- A back end user authentication system which is capable of providing unique privilege settings relative to each user
+> STATUS: Resolved
+
+- A front end user authentication portal which connects to the back end authentication system
+> STATUS: Resolved
 
 ## Code Statistics
 
