@@ -1,6 +1,9 @@
 
 
 
+## Code Statistics
+
+---------------------------------------
 
 ```bash
 
@@ -32,6 +35,13 @@ Total                 190        63743        57705         1668         4370
 
 ```
 
+
+## File Structure
+
+-------------------------------------------------
+
+
+**Full File Structure**
 
 ```bash
 
@@ -326,6 +336,34 @@ Total                 190        63743        57705         1668         4370
 
 
 
+## Commit History
+
+----------------------------------------------------------------
+
+
+
+*A commit is defined as a save point and is relative to the project branch.*
+
+- Git is a tool used in software development which allows developers to:
+> - Keep track of changes made to the code base
+> - Revert back to previous versions of the code base
+> - Manage and create new branches respective to specific project features or development teams
+> - Merge branches into feature branches, development branches or directly into live production
+
+**In Simple terms:**
+
+> - You write some code or add a new file
+> - You add those changes to the staging area (git add myfiles)
+> - You commit those changes to memory (git commit -m "My message regarding my changes that others will understand")
+
+
+
+> Commit History:
+> - Provides a detailed overview of the history of files modified, removed or added.
+> - A (+) symbolizes something has been added a (-) symbolizes something has been deleted
+
+
+*Below is the commit history for the KPI Queen Application*
 
 
 ```diff
