@@ -1,4 +1,4 @@
-
+<details><summary>Commit History</summary>
 
 ```diff
 
@@ -1546,3 +1546,5 @@ Author: joshjetson <joshjetson@gmail.com>
  102 files changed, 15633 insertions(+)
 
  ```
+
+ </details>
