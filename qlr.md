@@ -3,14 +3,18 @@
 
 **Current Status**
 
+*The current status is up to date as of 12/4/2023*
 
+| Status  | Current Funding | YTD Funding |
+|:--------|:---------------:|------------:|
+| Halted  |   Exhausted     |   4000.00   | 
 
-104 commits
-56 Days of work since proof of concept or minimum viable demo
-8 - 10 Hours per day
-Current Hours = 448
-Current Funding = 4,000
-Current Hourly Rate Relative to Current Funding = 8.90
+> Halted Based on table below, project scope resolved deliverables and quantity of code commits relative to entire code body produced after September 15th 2023
+
+| YTD Days Worked | YTD Hours Worked | Hourly Rate (YTD Funding / Hours Worked) |
+|:---------------:|:----------------:|------------------------------------------:
+|   56 Calendar   |       448        |                    8.90                  |
+
 
 Expenses
 - Server Usage
@@ -96,6 +100,20 @@ Expenses
 - Various front end graph and chart libraries implemented which are capable of rendering back end dynamic data to the front end of the application
 > STATUS: Resolved
 
+- User back end database models respective to individual user preferences
+> STATUS: Resolved
+
+- Admin back end database models respective to individual user preferences. Models the admin can use to modify specific user preference availability
+> STATUS: Resolved
+
+- Front end screen/page where each respective user can access and modify their own specific account preferences and account details
+> STATUS: Partial
+
+- Admin back end models capable of associating various users
+> STATUS: Resolved
+
+- Admin front end screen/page where the administrator can set which users are associated into specific groups and as groups given specific access to data based on privileges
+> STATUS: Resolved
 
 - User back end database models respective to various financial data that the user will input and ultimately be housed in the database
 > These models are directly responsible for communication between what the user inputs and what the database receives relative to the input
