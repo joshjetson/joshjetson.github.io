@@ -1,6 +1,7 @@
 
 
 
+
 ```bash
 
 
@@ -32,6 +33,296 @@ Total                 190        63743        57705         1668         4370
 ```
 
 
+```bash
+
+├── assets
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── models.py
+│   ├── __pycache__
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── authentication
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── __pycache__
+│   ├── tests.py
+│   ├── urls.py
+│   ├── utils.py
+│   └── views.py
+├── code_count.txt
+├── currencies.json
+├── expenses
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_auto_20200508_1810.py
+│   │   ├── 0003_alter_expense_options.py
+│   │   ├── 0004_category_type_expense_category_type.py
+│   │   ├── 0005_alter_category_id_alter_category_type_id_and_more.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── models.py
+│   ├── __pycache__
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── expenseswebsite
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── settings.py
+│   ├── static
+│   │   ├── css
+│   │   │   ├── adminstyle.css
+│   │   │   ├── bootstrap.css
+│   │   │   ├── bootstrap.min.css
+│   │   │   ├── bootstrap_morph.css
+│   │   │   ├── dashboard.css
+│   │   │   ├── extra.css
+│   │   │   ├── main.css
+│   │   │   ├── paper.css
+│   │   │   ├── product.css
+│   │   │   └── sidebaro.css
+│   │   ├── img
+│   │   │   ├── board_room.png
+│   │   │   ├── cap_lenders.png
+│   │   │   ├── desk_worker.png
+│   │   │   ├── favicon.png
+│   │   │   ├── gears_.png
+│   │   │   ├── glass_writing.png
+│   │   │   ├── impossible.png
+│   │   │   ├── kpi_card_2.png
+│   │   │   ├── kpi_cards.png
+│   │   │   ├── kpi_favicon.xcf
+│   │   │   ├── kpi_middle.png
+│   │   │   ├── kpiqlogo.png
+│   │   │   ├── legal_help.png
+│   │   │   ├── logo.png
+│   │   │   ├── many_charts_neon.jpg
+│   │   │   ├── meeting.png
+│   │   │   ├── myvchart.png
+│   │   │   ├── paper_resources.png
+│   │   │   ├── pen_chart.png
+│   │   │   ├── perf_groups.png
+│   │   │   ├── stock_chart_dood.jpg
+│   │   │   ├── support_pic.png
+│   │   │   ├── team.png
+│   │   │   ├── vchart.jpg
+│   │   │   └── work_adv.png
+│   │   └── js
+│   │       ├── chart.js
+│   │       ├── coffee.js
+│   │       ├── dynamic_line.js
+│   │       ├── expensecharts.js
+│   │       ├── exp_stats.js
+│   │       ├── fancybar.js
+│   │       ├── financial
+│   │       │   ├── financial_line.js
+│   │       │   └── piechart.js
+│   │       ├── getCategoryData.js
+│   │       ├── inc_backup_stats.js
+│   │       ├── inc_bar.js
+│   │       ├── inc_doughnut.js
+│   │       ├── inc_stats.js
+│   │       ├── kpi_line.js
+│   │       ├── main.js
+│   │       ├── modular_line.js
+│   │       ├── old_chart.js
+│   │       ├── piexample.js
+│   │       ├── randr
+│   │       │   └── randr_line.js
+│   │       ├── register.js
+│   │       ├── sales_plotly.js
+│   │       ├── searchAssets.js
+│   │       ├── searchExpenses.js
+│   │       ├── searchIncome.js
+│   │       ├── searchLiabs.js
+│   │       ├── stats.js
+│   │       └── userStats.js
+│   ├── urls.py
+│   └── wsgi.py
+├── kpis
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_reports_owner.py
+│   │   ├── 0003_randr.py
+│   │   ├── 0004_alter_randr_options_alter_reports_options_and_more.py
+│   │   ├── 0005_financial_revenue_financial_hours.py
+│   │   ├── 0006_financial.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── models.py
+│   ├── __pycache__
+│   ├── templatetags
+│   │   ├── getattribute.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── landing.md
+├── liabs
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── models.py
+│   ├── __pycache__
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── manage.py
+├── mermaid_diagrams.md
+├── metrics
+│   ├── formulas_and_visualizations.md
+│   ├── Monthly Report Input page.docx
+│   └── monthly_report.md
+├── metrics.csv
+├── notes.md
+├── package.json
+├── pdphases.md
+├── Pipfile
+├── Pipfile.lock
+├── Procfile
+├── requirements.txt
+├── screenshots
+│   ├── doughnut.png
+│   ├── fullscreen.png
+│   ├── menu_button.png
+│   ├── mobile_cgraph.PNG
+│   ├── mobile_graph.PNG
+│   ├── mobile_landing.PNG
+│   ├── mobile_monthly.PNG
+│   ├── mobile_sidebar.PNG
+│   ├── monthly_report_sales.png
+│   └── side_bar.png
+├── steps.md
+├── templates
+│   ├── admin
+│   │   ├── base_site.html
+│   │   └── login.html
+│   ├── assets
+│   │   ├── add_asset.html
+│   │   ├── edit-asset.html
+│   │   └── index.html
+│   ├── authentication
+│   │   ├── activate_account.html
+│   │   ├── login.html
+│   │   ├── register.html
+│   │   ├── reset-password.html
+│   │   └── set-newpassword.html
+│   ├── base_auth.html
+│   ├── base.html
+│   ├── expenses
+│   │   ├── add_expense.html
+│   │   ├── edit-expense.html
+│   │   ├── expense_bar.html
+│   │   ├── expense_line.html
+│   │   ├── index.html
+│   │   └── stats.html
+│   ├── income
+│   │   ├── add_income.html
+│   │   ├── edit_income.html
+│   │   ├── inc_bar.html
+│   │   ├── inc_doughnut.html
+│   │   ├── inc_stats.html
+│   │   └── index.html
+│   ├── index.html
+│   ├── indi_coaching.html
+│   ├── kpi_metrics.html
+│   ├── kpis
+│   │   ├── edit_report_backup.html
+│   │   ├── edit_report.html
+│   │   ├── edit_sales_backup.html
+│   │   ├── full_report.html
+│   │   ├── kpis_main.html
+│   │   ├── modify_report.html
+│   │   ├── monthly_report_copy.html
+│   │   ├── monthly_report.html
+│   │   ├── reports
+│   │   │   ├── financial
+│   │   │   │   ├── edit_report_financial.html
+│   │   │   │   ├── modify_report_financial.html
+│   │   │   │   └── monthly_report_financial.html
+│   │   │   └── randr
+│   │   │       ├── edit_report_randr.html
+│   │   │       ├── modify_report_randr.html
+│   │   │       └── monthly_report_randr.html
+│   │   └── sales_report.html
+│   ├── liabs
+│   │   ├── add_liab.html
+│   │   ├── edit-liab.html
+│   │   └── index.html
+│   ├── partials
+│   │   ├── _messages.html
+│   │   ├── _sidebar.html
+│   │   ├── sidebar.html
+│   │   ├── sidebaro.css
+│   │   ├── tesbar.html
+│   │   └── welcome_sidebar.html
+│   ├── perf_groups.html
+│   ├── preferences
+│   │   └── index.html
+│   ├── REBASE.html
+│   ├── services.html
+│   ├── testbase.html
+│   ├── trusted.html
+│   └── welcome.html
+├── trash.html
+├── userincome
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_alter_userincome_options.py
+│   │   ├── 0003_source_type_userincome_source_type.py
+│   │   ├── 0004_alter_source_id_alter_source_type_id_and_more.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── models.py
+│   ├── __pycache__
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+└── userpreferences
+    ├── admin.py
+    ├── apps.py
+    ├── __init__.py
+    ├── migrations
+    │   ├── 0001_initial.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    ├── models.py
+    ├── __pycache__
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+
+
+
+
+
+```
 
 
 
