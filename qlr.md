@@ -1,3 +1,22 @@
+# KPI Queen Application Status and Overview
+
+
+**Current Status**
+
+
+
+104 commits
+56 Days of work since proof of concept or minimum viable demo
+8 - 10 Hours per day
+Current Hours = 448
+Current Funding = 4,000
+Current Hourly Rate Relative to Current Funding = 8.90
+
+Expenses
+- Server Usage
+- Server Storage
+- Server Database Access
+
 
 ## Project Scope
 
@@ -33,6 +52,8 @@
 
 **III. Deliverables**
 
+*Below is a list of highlighted or concatenated deliverables. The actual amount of deliverables far exceeds this highlighted list, many of which not listed  are sub-deliverables*
+
 - A Development Environment
 > - STATUS: Resolved
 
@@ -53,6 +74,81 @@
 
 - A front end user authentication portal which connects to the back end authentication system
 > STATUS: Resolved
+
+- A back end Administration model fitted for client specific usage and needs relative to user data and user access
+> STATUS: Resolved
+
+- A front end client administration portal which connects to the back end authentication system and distinguishes the client as an administrator with super user privileges
+> STATUS: Resolved
+
+- A back end user email verification method which will, among other things,  serve the need to create and update a users account information
+> STATUS: Resolved
+
+- A front end screen/page which each user will be greeted with upon successful login via the authentication portal
+> STATUS: Resolved
+
+- A front end navigation bar inherited by all screens/pages which will allow the user to navigate through the application
+> STATUS: Resolved
+
+- A front end side menu navigation inherited by all screens/pages which will allow the user to navigate through the application. This will ensure future mobile optimization ease of use.
+> STATUS: Resolved
+
+- Various front end graph and chart libraries implemented which are capable of rendering back end dynamic data to the front end of the application
+> STATUS: Resolved
+
+
+- User back end database models respective to various financial data that the user will input and ultimately be housed in the database
+> These models are directly responsible for communication between what the user inputs and what the database receives relative to the input
+> - Asset models: Models having to do with users financial assets
+> STATUS: Resolved
+> - Liability models: Models having to do with users financial liabilities
+> STATUS: Resolved
+> - Expense models: Models having to do with users financial expenses
+> STATUS: Resolved
+> - Income  models: Models having to do with users financial income
+> STATUS: Resolved
+> Key Performance Indicator Models: Models having to do with the statistics and metrics relative to users financial records
+> STATUS: Resolved
+
+- Front end screens relative to the user, after authentication, which provide fields to input the different financial data outlined in the financial database models
+> Asset Input Screen/Page:
+> - STATUS: Resolved
+> Asset Modification Screen/Page:
+> - STATUS: Resolved
+> Expenses Input Screen/Page:
+> - STATUS: Resolved
+> Expenses Modification Screen/Page:
+> - STATUS: Resolved
+> Liabilities Input Screen/Page:
+> - STATUS: Resolved
+> Liability Modification Screen/Page:
+> - STATUS: Resolved
+> Income Input Screen/Page:
+> - STATUS: Resolved
+> Income Modification Screen/Page:
+> - STATUS: Resolved
+> Monthly Report Input Screen/Page(s):
+> > This front end section is relative to the Key Performance Indicator back end models and is comprised of the following deliverable sections:
+> > - Sales Reports:
+> > > Visual KPIs Including Graphs and Charts Screen/Page:
+> > > - STATUS: Resolved
+> > > Sales Reports Create/Modify/View Screen/Page:
+> > > - STATUS: Resolved
+> > - R&R Reports:
+> > > Visual KPIs Including Graphs and Charts Screen/Page:
+> > > - STATUS: Resolved
+> > > R&R Reports Create/Modify/View Screen/Page:
+> > > - STATUS: Resolved
+> > - Financial Reports:
+> > > Visual KPIs Including Graphs and Charts Screen/Page:
+> > > - STATUS: Partial
+> > > Financial Reports Create/Modify/View Screen/Page:
+> > > - STATUS: Partial
+> > - Operations Reports:
+> > > - STATUS: Pending
+> > - Other Reports:
+> > > - STATUS: Pending
+
 
 ## Code Statistics
 
@@ -142,7 +238,7 @@ Total                 190        63743        57705         1668         4370
 │   ├── tests.py
 │   ├── urls.py
 │   └── views.py
-├── expenseswebsite
+├── kpiapplication
 │   ├── asgi.py
 │   ├── __init__.py
 │   ├── __pycache__
@@ -427,7 +523,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     Working on recieving real time data into the pie chart
 
- expenseswebsite/static/js/financial/piechart.js | 4 +++-
+ kpiapplication/static/js/financial/piechart.js | 4 +++-
  1 file changed, 3 insertions(+), 1 deletion(-)
 
 + commit b66e244ca535daade4a24a0364f389b0bab20fd6
@@ -436,7 +532,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     added the pie chart to financial section
 
- expenseswebsite/static/js/financial/piechart.js    | 68 ++++++++++++++++++++++
+ kpiapplication/static/js/financial/piechart.js    | 68 ++++++++++++++++++++++
  kpis/views.py                                      |  4 ++
  templates/kpis/edit_report.html                    |  4 +-
  .../financial/monthly_report_financial.html        | 19 +++++-
@@ -486,12 +582,12 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Tackled many issues and am now focusing on the Financial Reports section
 
- expenseswebsite/static/css/bootstrap.css           |  3430 +++--
- expenseswebsite/static/css/bootstrap_morph.css     | 12750 +++++++++++++++++++
- expenseswebsite/static/js/dynamic_line.js          |   185 +
+ kpiapplication/static/css/bootstrap.css           |  3430 +++--
+ kpiapplication/static/css/bootstrap_morph.css     | 12750 +++++++++++++++++++
+ kpiapplication/static/js/dynamic_line.js          |   185 +
  .../{RandR_line.js => financial/financial_line.js} |   105 +-
- expenseswebsite/static/js/modular_line.js          |     8 +-
- expenseswebsite/static/js/randr/randr_line.js      |   211 +
+ kpiapplication/static/js/modular_line.js          |     8 +-
+ kpiapplication/static/js/randr/randr_line.js      |   211 +
  kpis/models.py                                     |    75 +
  kpis/urls.py                                       |     2 +-
  kpis/views.py                                      |   236 +-
@@ -547,8 +643,8 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Continuing the process of modularization
 
- expenseswebsite/static/js/RandR_line.js   | 208 +++++++++++++++
- expenseswebsite/static/js/modular_line.js |  66 ++---
+ kpiapplication/static/js/RandR_line.js   | 208 +++++++++++++++
+ kpiapplication/static/js/modular_line.js |  66 ++---
  kpis/models.py                            |   9 +
  kpis/views.py                             | 129 +++++++--
  metrics/monthly_report.md                 |  61 ++++-
@@ -574,11 +670,11 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     Making it look like theirs_3
 
- expenseswebsite/static/css/paper.css       |   6 ++
- expenseswebsite/static/img/cap_lenders.png | Bin 0 -> 10035 bytes
- expenseswebsite/static/img/impossible.png  | Bin 0 -> 21305 bytes
- expenseswebsite/static/img/legal_help.png  | Bin 0 -> 3508 bytes
- expenseswebsite/static/img/work_adv.png    | Bin 0 -> 5404 bytes
+ kpiapplication/static/css/paper.css       |   6 ++
+ kpiapplication/static/img/cap_lenders.png | Bin 0 -> 10035 bytes
+ kpiapplication/static/img/impossible.png  | Bin 0 -> 21305 bytes
+ kpiapplication/static/img/legal_help.png  | Bin 0 -> 3508 bytes
+ kpiapplication/static/img/work_adv.png    | Bin 0 -> 5404 bytes
  templates/base.html                        |   2 +-
  templates/index.html                       |   4 +-
  templates/indi_coaching.html               | 148 ++++++++++++++++++++++++++++
@@ -596,21 +692,21 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     Making it look like theirs_2
 
- expenseswebsite/static/css/paper.css            |  10 +-
- expenseswebsite/static/img/favicon.png          | Bin 132418 -> 45010 bytes
- expenseswebsite/static/img/glass_writing.png    | Bin 0 -> 21585 bytes
- expenseswebsite/static/img/kpi_card_2.png       | Bin 0 -> 88158 bytes
- expenseswebsite/static/img/kpi_cards.png        | Bin 0 -> 107676 bytes
- expenseswebsite/static/img/kpi_favicon.xcf      | Bin 0 -> 185374 bytes
- expenseswebsite/static/img/kpi_middle.png       | Bin 0 -> 76159 bytes
- expenseswebsite/static/img/kpiqlogo.png         | Bin 0 -> 17211 bytes
- expenseswebsite/static/img/many_charts_neon.jpg | Bin 0 -> 103666 bytes
- expenseswebsite/static/img/meeting.png          | Bin 0 -> 27504 bytes
- expenseswebsite/static/img/pen_chart.png        | Bin 0 -> 26795 bytes
- expenseswebsite/static/img/perf_groups.png      | Bin 0 -> 323533 bytes
- expenseswebsite/static/img/stock_chart_dood.jpg | Bin 0 -> 93002 bytes
- expenseswebsite/static/img/support_pic.png      | Bin 0 -> 34716 bytes
- expenseswebsite/static/img/team.png             | Bin 0 -> 40430 bytes
+ kpiapplication/static/css/paper.css            |  10 +-
+ kpiapplication/static/img/favicon.png          | Bin 132418 -> 45010 bytes
+ kpiapplication/static/img/glass_writing.png    | Bin 0 -> 21585 bytes
+ kpiapplication/static/img/kpi_card_2.png       | Bin 0 -> 88158 bytes
+ kpiapplication/static/img/kpi_cards.png        | Bin 0 -> 107676 bytes
+ kpiapplication/static/img/kpi_favicon.xcf      | Bin 0 -> 185374 bytes
+ kpiapplication/static/img/kpi_middle.png       | Bin 0 -> 76159 bytes
+ kpiapplication/static/img/kpiqlogo.png         | Bin 0 -> 17211 bytes
+ kpiapplication/static/img/many_charts_neon.jpg | Bin 0 -> 103666 bytes
+ kpiapplication/static/img/meeting.png          | Bin 0 -> 27504 bytes
+ kpiapplication/static/img/pen_chart.png        | Bin 0 -> 26795 bytes
+ kpiapplication/static/img/perf_groups.png      | Bin 0 -> 323533 bytes
+ kpiapplication/static/img/stock_chart_dood.jpg | Bin 0 -> 93002 bytes
+ kpiapplication/static/img/support_pic.png      | Bin 0 -> 34716 bytes
+ kpiapplication/static/img/team.png             | Bin 0 -> 40430 bytes
  templates/index.html                            |  49 ++++---
  templates/kpi_metrics.html                      | 159 ++++++++++++++++++++
  templates/perf_groups.html                      | 139 ++++++++++++++++++
@@ -634,10 +730,10 @@ Author: Josh@codebro <joshjetson@gmail.com>
     Making it look like theirs
 
  authentication/views.py                        |   4 +-
- expenseswebsite/settings.py                    |   6 +
- expenseswebsite/static/img/desk_worker.png     | Bin 0 -> 20214 bytes
- expenseswebsite/static/img/gears_.png          | Bin 0 -> 24122 bytes
- expenseswebsite/static/img/paper_resources.png | Bin 0 -> 23653 bytes
+ kpiapplication/settings.py                    |   6 +
+ kpiapplication/static/img/desk_worker.png     | Bin 0 -> 20214 bytes
+ kpiapplication/static/img/gears_.png          | Bin 0 -> 24122 bytes
+ kpiapplication/static/img/paper_resources.png | Bin 0 -> 23653 bytes
  landing.md                                     |  16 ++
  templates/index.html                           |  73 +++++--
  templates/kpis/monthly_report.html             |   1 -
@@ -664,7 +760,7 @@ Author: Josh at Moms <josh@virtualraremedia.com>
     Modular Lines are now dynamic
 
  code_count.txt                            | 186 ++++++++++++++++++++++++++++++
- expenseswebsite/static/js/modular_line.js |   2 +-
+ kpiapplication/static/js/modular_line.js |   2 +-
  kpis/urls.py                              |   2 +-
  kpis/views.py                             |  71 ++++++------
  templates/kpis/monthly_report.html        |   2 +-
@@ -794,7 +890,7 @@ Author: Josh at Moms <josh@virtualraremedia.com>
 
     upated delta indicators beyond dummy data in monthly report
 
- expenseswebsite/static/js/modular_line.js |   1 +
+ kpiapplication/static/js/modular_line.js |   1 +
  templates/kpis/monthly_report.html        | 213 ++++++++++++++++++++++++------
  2 files changed, 175 insertions(+), 39 deletions(-)
 
@@ -804,7 +900,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     minor 3
 
- expenseswebsite/static/js/piexample.js | 2 +-
+ kpiapplication/static/js/piexample.js | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 + commit e928b61a84d12e84045d3e585fa70e75b712dd46
@@ -822,7 +918,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     minor 1
 
- expenseswebsite/static/js/piexample.js | 2 +-
+ kpiapplication/static/js/piexample.js | 2 +-
  templates/index.html                   | 2 +-
  2 files changed, 2 insertions(+), 2 deletions(-)
 
@@ -832,8 +928,8 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     formatting
 
- expenseswebsite/static/js/coffee.js    | 14 +++++++-------
- expenseswebsite/static/js/piexample.js | 11 ++++++++++-
+ kpiapplication/static/js/coffee.js    | 14 +++++++-------
+ kpiapplication/static/js/piexample.js | 11 ++++++++++-
  templates/index.html                   |  9 +++++++--
  3 files changed, 24 insertions(+), 10 deletions(-)
 
@@ -843,7 +939,7 @@ Author: Josh at Moms <josh@virtualraremedia.com>
 
     minor
 
- expenseswebsite/static/js/coffee.js | 4 ++--
+ kpiapplication/static/js/coffee.js | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 + commit 97b191e41907d818fcc871ad973223f2761c6c82
@@ -852,9 +948,9 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     playing with some new ideas
 
- expenseswebsite/static/js/coffee.js    | 47 +++++++++++++++++
- expenseswebsite/static/js/fancybar.js  | 95 ++++++++++++++++++++++++++++++++++
- expenseswebsite/static/js/piexample.js | 50 ++++++++++++++++++
+ kpiapplication/static/js/coffee.js    | 47 +++++++++++++++++
+ kpiapplication/static/js/fancybar.js  | 95 ++++++++++++++++++++++++++++++++++
+ kpiapplication/static/js/piexample.js | 50 ++++++++++++++++++
  templates/index.html                   | 57 +++++++++++++++++---
  4 files changed, 243 insertions(+), 6 deletions(-)
 
@@ -864,8 +960,8 @@ Author: Josh at Moms <josh@virtualraremedia.com>
 
     added more metric tools to monthly reports
 
- expenseswebsite/static/js/modular_line.js |  90 ++++++++---
- expenseswebsite/static/js/sales_plotly.js |  17 ++
+ kpiapplication/static/js/modular_line.js |  90 ++++++++---
+ kpiapplication/static/js/sales_plotly.js |  17 ++
  kpis/views.py                             |  23 ++-
  templates/kpis/monthly_report.html        | 249 +++++++++++++++++++++++++++---
  4 files changed, 337 insertions(+), 42 deletions(-)
@@ -876,7 +972,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     working on monthly comparisson line graph
 
- expenseswebsite/static/js/modular_line.js |  4 ----
+ kpiapplication/static/js/modular_line.js |  4 ----
  kpis/views.py                             | 26 +++++---------------------
  2 files changed, 5 insertions(+), 25 deletions(-)
 
@@ -886,7 +982,7 @@ Author: Josh at Moms <josh@virtualraremedia.com>
 
     Changed the monthly report layout and worked on the modular graph
 
- expenseswebsite/static/js/modular_line.js | 131 ++++++++++++++++++++++++++++++
+ kpiapplication/static/js/modular_line.js | 131 ++++++++++++++++++++++++++++++
  kpis/urls.py                              |   1 +
  kpis/views.py                             |  44 +++++++++-
  templates/kpis/edit_sales.html            |  22 ++++-
@@ -952,7 +1048,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     changed table responsivness
 
- expenseswebsite/static/css/extra.css | 1 +
+ kpiapplication/static/css/extra.css | 1 +
  templates/assets/index.html          | 2 +-
  templates/expenses/index.html        | 7 +++----
  templates/income/index.html          | 2 +-
@@ -965,10 +1061,10 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     Fixed some layout issues and added tables and carb bodies to the different financial sections
 
- expenseswebsite/static/js/searchAssets.js   |  2 +-
- expenseswebsite/static/js/searchExpenses.js |  2 +-
- expenseswebsite/static/js/searchIncome.js   |  2 +-
- expenseswebsite/static/js/searchLiabs.js    |  2 +-
+ kpiapplication/static/js/searchAssets.js   |  2 +-
+ kpiapplication/static/js/searchExpenses.js |  2 +-
+ kpiapplication/static/js/searchIncome.js   |  2 +-
+ kpiapplication/static/js/searchLiabs.js    |  2 +-
  pdphases.md                                 |  8 +++++
  templates/assets/index.html                 | 45 +++++++++++++----------------
  templates/expenses/index.html               | 22 ++++++++------
@@ -992,7 +1088,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Changed some colors on the cards in reports
 
- expenseswebsite/static/css/extra.css | 77 ++++++++++++++++++++++++++++++++++++
+ kpiapplication/static/css/extra.css | 77 ++++++++++++++++++++++++++++++++++++
  templates/kpis/monthly_report.html   | 27 ++++++++-----
  2 files changed, 95 insertions(+), 9 deletions(-)
 
@@ -1002,7 +1098,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     added a new design to monthly report using cards for kpis
 
- expenseswebsite/static/css/extra.css | 192 +++++++++++++++++++++++++++++++++++
+ kpiapplication/static/css/extra.css | 192 +++++++++++++++++++++++++++++++++++
  templates/base.html                  |   1 +
  templates/kpis/monthly_report.html   | 120 +++++++++++++++++-----
  3 files changed, 287 insertions(+), 26 deletions(-)
@@ -1054,9 +1150,9 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     Shaping the reports sections
 
- expenseswebsite/static/css/bootstrap.css |     2 +-
- expenseswebsite/static/js/chart.js       | 11454 ++++++++++++++++++++++++++++-
- expenseswebsite/static/js/old_chart.js   |    10 +
+ kpiapplication/static/css/bootstrap.css |     2 +-
+ kpiapplication/static/js/chart.js       | 11454 ++++++++++++++++++++++++++++-
+ kpiapplication/static/js/old_chart.js   |    10 +
  kpis/urls.py                             |     1 +
  kpis/views.py                            |    16 +-
  metrics/monthly_report.md                |   165 +
@@ -1091,9 +1187,9 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Some aesthetic changes and some updates to monthly_reports
 
- expenseswebsite/static/img/board_room.png      | Bin 0 -> 84547 bytes
- expenseswebsite/static/img/myvchart.png        | Bin 0 -> 782481 bytes
- expenseswebsite/static/img/vchart.jpg          | Bin 0 -> 1662226 bytes
+ kpiapplication/static/img/board_room.png      | Bin 0 -> 84547 bytes
+ kpiapplication/static/img/myvchart.png        | Bin 0 -> 782481 bytes
+ kpiapplication/static/img/vchart.jpg          | Bin 0 -> 1662226 bytes
  metrics/.~lock.Monthly Report Input page.docx# |   1 -
  pdphases.md                                    |  71 +++++++++++++++++++++++++
  templates/index.html                           |   8 ++-
@@ -1122,7 +1218,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Major aesthetic changes, major
 
- expenseswebsite/static/css/bootstrap.css | 12750 +++++++++++++++++++++++++++++
+ kpiapplication/static/css/bootstrap.css | 12750 +++++++++++++++++++++++++++++
  templates/admin/base_site.html           |     2 +-
  templates/assets/add_asset.html          |     2 +-
  templates/assets/edit-asset.html         |     2 +-
@@ -1151,7 +1247,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     reports page intiial
 
- expenseswebsite/static/css/paper.css | 35 +++++++++++++
+ kpiapplication/static/css/paper.css | 35 +++++++++++++
  kpis/urls.py                         |  1 +
  kpis/views.py                        |  4 ++
  templates/base.html                  |  1 +
@@ -1166,7 +1262,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Fixes some of the layout
 
- expenseswebsite/static/css/dashboard.css | 10 ++++
+ kpiapplication/static/css/dashboard.css | 10 ++++
  templates/base.html                      | 40 ++++++--------
  templates/index.html                     | 95 ++++++++++++++++++++++----------
  templates/partials/sidebar.html          |  9 ++-
@@ -1179,7 +1275,7 @@ Author: joshjetson <joshjetson@gmail.com>
     Made some major changes. Added a greetings page and a whole bunch of other things. Check the difs with lazygit
 
  authentication/views.py                |   2 +-
- expenseswebsite/static/css/product.css |  81 +++++++++++++
+ kpiapplication/static/css/product.css |  81 +++++++++++++
  kpis/views.py                          |   1 -
  templates/base.html                    |  49 ++++++--
  templates/index.html                   | 209 +++++++++++++++++++++++++++++++++
@@ -1194,7 +1290,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Did some refactoring in order to make the javascript responsible for the search reusable, also cleaned up the html inside the sidebar.html making the sidebar look cleaner. Got rid of the toggling Accounting section and just keeping it static for consistency and it looks cleaner
 
- expenseswebsite/static/js/searchAssets.js      |   8 +-
+ kpiapplication/static/js/searchAssets.js      |   8 +-
  metrics/.~lock.Monthly Report Input page.docx# |   1 +
  pdphases.md                                    | 113 +++++++++++++++++++++++++
  templates/assets/index.html                    |   2 +-
@@ -1216,10 +1312,10 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Fixed the searches in accounting respective towards each financial you can now search, find an entry and then edit the entry found directly through the search
 
- expenseswebsite/static/js/searchAssets.js   | 7 ++++---
- expenseswebsite/static/js/searchExpenses.js | 3 ++-
- expenseswebsite/static/js/searchIncome.js   | 3 ++-
- expenseswebsite/static/js/searchLiabs.js    | 3 ++-
+ kpiapplication/static/js/searchAssets.js   | 7 ++++---
+ kpiapplication/static/js/searchExpenses.js | 3 ++-
+ kpiapplication/static/js/searchIncome.js   | 3 ++-
+ kpiapplication/static/js/searchLiabs.js    | 3 ++-
  templates/assets/index.html                 | 4 ++--
  templates/expenses/index.html               | 2 +-
  templates/income/index.html                 | 2 +-
@@ -1232,7 +1328,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Changed the layout for financial pages
 
- expenseswebsite/static/css/bootstrap.min.css |  6 ++--
+ kpiapplication/static/css/bootstrap.min.css |  6 ++--
  templates/assets/index.html                  | 48 ++++++++++++++++++----------
  templates/expenses/index.html                | 40 +++++++++++++----------
  templates/income/inc_stats.html              |  8 +++--
@@ -1272,8 +1368,8 @@ Author: joshjetson <joshjetson@gmail.com>
 
  "\\"                                         |  57 ------
  authentication/views.py                      |   6 +-
- expenseswebsite/static/css/bootstrap.min.css |   2 +-
- expenseswebsite/static/css/dashboard.css     |  36 +++-
+ kpiapplication/static/css/bootstrap.min.css |   2 +-
+ kpiapplication/static/css/dashboard.css     |  36 +++-
  metrics/Monthly Report Input page.docx       | Bin 0 -> 23698 bytes
  templates/REBASE.html                        | 251 +++++++++++++++++++++++++++
  templates/assets/add_asset.html              |   2 +-
@@ -1310,7 +1406,7 @@ Author: joshjetson <joshjetson@gmail.com>
     Sorted out major issues and got kpis in prelim stage
 
  "\\"                                  |  57 +++++++++++++++
- expenseswebsite/static/js/kpi_line.js | 131 ++++++++++++++++++++++++++++++++++
+ kpiapplication/static/js/kpi_line.js | 131 ++++++++++++++++++++++++++++++++++
  kpis/urls.py                          |   2 +
  kpis/views.py                         |  92 ++++++++++++++++++------
  templates/kpis/kpis_main.html         |  49 +++++++++++--
@@ -1337,12 +1433,12 @@ Author: joshjetson <joshjetson@gmail.com>
  assets/views.py                                    |  32 -----
  expenses/apps.py                                   |   1 +
  ..._category_id_alter_category_type_id_and_more.py |  33 +++++
- expenseswebsite/settings.py                        |   1 +
- expenseswebsite/static/js/searchAssets.js          |  50 ++++++++
- expenseswebsite/static/js/searchExpenses.js        |   3 +-
- expenseswebsite/static/js/searchIncome.js          |   1 +
- expenseswebsite/static/js/searchLiabs.js           |  50 ++++++++
- expenseswebsite/urls.py                            |   1 +
+ kpiapplication/settings.py                        |   1 +
+ kpiapplication/static/js/searchAssets.js          |  50 ++++++++
+ kpiapplication/static/js/searchExpenses.js        |   3 +-
+ kpiapplication/static/js/searchIncome.js          |   1 +
+ kpiapplication/static/js/searchLiabs.js           |  50 ++++++++
+ kpiapplication/urls.py                            |   1 +
  templates/assets/index.html                        |   2 +-
  templates/liabs/add_liab.html                      |  73 +++++++++++
  templates/liabs/edit-liab.html                     |  96 ++++++++++++++
@@ -1386,9 +1482,9 @@ Author: joshjetson <joshjetson@gmail.com>
  assets/views.py                      | 186 +++++++++++++++++++++++++++++++++++
  expenses/urls.py                     |   2 +
  expenses/views.py                    |   3 +
- expenseswebsite/settings.py          |   1 +
- expenseswebsite/static/js/stats.js   |  10 +-
- expenseswebsite/urls.py              |   1 +
+ kpiapplication/settings.py          |   1 +
+ kpiapplication/static/js/stats.js   |  10 +-
+ kpiapplication/urls.py              |   1 +
  templates/assets/add_asset.html      |  73 ++++++++++++++
  templates/assets/edit-asset.html     |  96 ++++++++++++++++++
  templates/assets/index.html          | 140 ++++++++++++++++++++++++++
@@ -1404,10 +1500,10 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Fixed some site navigation issues, this is pre assets and liabilites apps
 
- expenseswebsite/static/js/exp_stats.js             |  2 +-
- expenseswebsite/static/js/inc_stats.js             |  3 --
- expenseswebsite/static/js/stats.js                 |  4 +--
- expenseswebsite/urls.py                            |  4 +--
+ kpiapplication/static/js/exp_stats.js             |  2 +-
+ kpiapplication/static/js/inc_stats.js             |  3 --
+ kpiapplication/static/js/stats.js                 |  4 +--
+ kpiapplication/urls.py                            |  4 +--
  templates/expenses/expense_line.html               | 21 ++++++++-----
  templates/expenses/stats.html                      | 17 +++++++---
  templates/income/add_income.html                   | 10 ++++++
@@ -1467,8 +1563,8 @@ Author: joshjetson <joshjetson@gmail.com>
 
     sorted out .env file for safety reasons
 
- expenseswebsite/.env           |  2 ++
- expenseswebsite/settings.py    | 10 +++-------
+ kpiapplication/.env           |  2 ++
+ kpiapplication/settings.py    | 10 +++-------
  templates/partials/tesbar.html | 24 ++++++++++++------------
  3 files changed, 17 insertions(+), 19 deletions(-)
 
@@ -1478,7 +1574,7 @@ Author: joshjetson <joshjetson@gmail.com>
 
     not noteworthy change
 
- expenseswebsite/static/js/inc_stats.js | 1 -
+ kpiapplication/static/js/inc_stats.js | 1 -
  1 file changed, 1 deletion(-)
 
 + commit c130472702e2e230bbb9d2bebd48df58774f9e25
@@ -1487,10 +1583,10 @@ Author: joshjetson <joshjetson@gmail.com>
 
     added Accounting dropdown menu and assets and liabilities navbar links that dont work yet
 
- expenseswebsite/static/css/dashboard.css  |  11 ++
- expenseswebsite/static/img/favicon.png    | Bin 0 -> 132418 bytes
- expenseswebsite/static/js/inc_doughnut.js |  10 +-
- expenseswebsite/static/js/inc_stats.js    |   5 +-
+ kpiapplication/static/css/dashboard.css  |  11 ++
+ kpiapplication/static/img/favicon.png    | Bin 0 -> 132418 bytes
+ kpiapplication/static/js/inc_doughnut.js |  10 +-
+ kpiapplication/static/js/inc_stats.js    |   5 +-
  metrics/formulas_and_visualizations.md    |  60 ++++++++++
  templates/admin/base_site.html            |   2 +-
  templates/base.html                       |   3 +-
@@ -1524,7 +1620,7 @@ Author: Josh <josh@virtualraremedia.com>
 
     updating the settings file from the production server to include the hosts static ip and registered domain name
 
- expenseswebsite/settings.py | 2 +-
+ kpiapplication/settings.py | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 + commit 2eef43df3041b92f183f7fca4ac1fa43fb7349a3
@@ -1544,8 +1640,8 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
  expenses/urls.py               |  1 -
  expenses/views.py              |  2 ++
- expenseswebsite/settings.py    |  1 +
- expenseswebsite/urls.py        |  1 +
+ kpiapplication/settings.py    |  1 +
+ kpiapplication/urls.py        |  1 +
  kpis/__init__.py               |  0
  kpis/admin.py                  |  3 +++
  kpis/apps.py                   |  6 +++++
@@ -1570,8 +1666,8 @@ Author: joshjetson <joshjetson@gmail.com>
 
  expenses/urls.py                       |  6 +++-
  expenses/views.py                      | 24 ++++++++++++++
- expenseswebsite/static/js/exp_stats.js | 60 ++++++++++++++++++++++++++++++++++
- expenseswebsite/static/js/inc_bar.js   | 56 +++++++++++++++++++++++++++++++
+ kpiapplication/static/js/exp_stats.js | 60 ++++++++++++++++++++++++++++++++++
+ kpiapplication/static/js/inc_bar.js   | 56 +++++++++++++++++++++++++++++++
  templates/base.html                    | 10 ++----
  templates/expenses/expense_line.html   | 56 +++++++++++++++++++++++++++++++
  templates/expenses/stats.html          |  4 +--
@@ -1589,8 +1685,8 @@ Author: joshjetson <joshjetson@gmail.com>
 
     added tabs
 
- expenseswebsite/static/js/inc_doughnut.js | 56 +++++++++++++++++++++++++++++++
- expenseswebsite/static/js/stats.js        |  3 +-
+ kpiapplication/static/js/inc_doughnut.js | 56 +++++++++++++++++++++++++++++++
+ kpiapplication/static/js/stats.js        |  3 +-
  mermaid_diagrams.md                       |  3 +-
  templates/base.html                       |  4 +--
  templates/expenses/stats.html             | 17 +++++++++-
@@ -1627,8 +1723,8 @@ Author: joshjetson <joshjetson@gmail.com>
 
     Fixed the date sorting problem with the line graph
 
- expenseswebsite/static/js/inc_backup_stats.js | 59 +++++++++++++++++++++++++++
- expenseswebsite/static/js/inc_stats.js        |  5 ++-
+ kpiapplication/static/js/inc_backup_stats.js | 59 +++++++++++++++++++++++++++
+ kpiapplication/static/js/inc_stats.js        |  5 ++-
  userincome/views.py                           | 30 +++++++++-----
  3 files changed, 81 insertions(+), 13 deletions(-)
 
@@ -1640,9 +1736,9 @@ Author: joshjetson <joshjetson@gmail.com>
 
  expenses/migrations/0003_alter_expense_options.py  |  16 ++
  expenses/models.py                                 |   3 +
- expenseswebsite/settings.py                        |   2 +-
- expenseswebsite/static/js/inc_stats.js             |  59 +++++
- expenseswebsite/static/js/stats.js                 |   5 +-
+ kpiapplication/settings.py                        |   2 +-
+ kpiapplication/static/js/inc_stats.js             |  59 +++++
+ kpiapplication/static/js/stats.js                 |   5 +-
  notes.md                                           | 273 +++++++++++++++++++++
  steps.md                                           |   9 +-
  templates/base.html                                |   4 +-
@@ -1669,10 +1765,10 @@ Author: joshjetson <joshjetson@gmail.com>
 
     fixed alot of errors
 
- expenseswebsite/settings.py              | 10 +++-
- expenseswebsite/static/css/dashboard.css | 15 +++++-
- expenseswebsite/static/css/sidebaro.css  | 16 ++++++
- expenseswebsite/static/js/stats.js       |  2 +-
+ kpiapplication/settings.py              | 10 +++-
+ kpiapplication/static/css/dashboard.css | 15 +++++-
+ kpiapplication/static/css/sidebaro.css  | 16 ++++++
+ kpiapplication/static/js/stats.js       |  2 +-
  templates/base.html                      | 27 +++++-----
  templates/expenses/stats.html            |  2 +-
  templates/partials/_sidebar.html         |  1 +
@@ -1725,7 +1821,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     sorted out the charts.js issue
 
- expenseswebsite/static/js/stats.js |  2 +-
+ kpiapplication/static/js/stats.js |  2 +-
  package.json                       | 17 +++++++++++++++++
  templates/base.html                |  2 +-
  templates/expenses/stats.html      |  4 ++--
@@ -1818,7 +1914,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
     almost there
 
  authentication/views.py       |  2 +-
- expenseswebsite/settings.py   |  6 ++---
+ kpiapplication/settings.py   |  6 ++---
  venv/bin/ipython              |  8 ++++++
  venv/bin/ipython3             |  8 ++++++
  venv/bin/pygmentize           |  8 ++++++
@@ -1831,7 +1927,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     some small upates more
 
- expenseswebsite/settings.py | 10 +++++-----
+ kpiapplication/settings.py | 10 +++++-----
  1 file changed, 5 insertions(+), 5 deletions(-)
 
 + commit 06a18e0dd04bef287be36fa639a7b494001342b0
@@ -1840,7 +1936,7 @@ Author: Josh@codebro <joshjetson@gmail.com>
 
     some small upates
 
- expenseswebsite/settings.py |  4 +++-
+ kpiapplication/settings.py |  4 +++-
  steps.md                    | 21 +++++++++++++++++++++
  venv/bin/activate           |  2 +-
  venv/bin/activate.csh       |  2 +-
@@ -1887,26 +1983,26 @@ Author: joshjetson <joshjetson@gmail.com>
  expenses/tests.py                              |     3 +
  expenses/urls.py                               |    17 +
  expenses/views.py                              |   144 +
- expenseswebsite/.env                           |     4 +
- expenseswebsite/__init__.py                    |     0
- expenseswebsite/asgi.py                        |    16 +
- expenseswebsite/settings.py                    |   149 +
- expenseswebsite/static/css/adminstyle.css      |    30 +
- expenseswebsite/static/css/bootstrap.min.css   | 12148 +++++++++++++++++++++++
- expenseswebsite/static/css/dashboard.css       |   106 +
- expenseswebsite/static/css/main.css            |    23 +
- expenseswebsite/static/img/logo.png            |   Bin 0 -> 4955 bytes
- expenseswebsite/static/js/chart.js             |    10 +
- expenseswebsite/static/js/expensecharts.js     |    72 +
- expenseswebsite/static/js/getCategoryData.js   |     0
- expenseswebsite/static/js/main.js              |     1 +
- expenseswebsite/static/js/register.js          |    75 +
- expenseswebsite/static/js/searchExpenses.js    |    49 +
- expenseswebsite/static/js/searchIncome.js      |    47 +
- expenseswebsite/static/js/stats.js             |    56 +
- expenseswebsite/static/js/userStats.js         |   106 +
- expenseswebsite/urls.py                        |    25 +
- expenseswebsite/wsgi.py                        |    16 +
+ kpiapplication/.env                           |     4 +
+ kpiapplication/__init__.py                    |     0
+ kpiapplication/asgi.py                        |    16 +
+ kpiapplication/settings.py                    |   149 +
+ kpiapplication/static/css/adminstyle.css      |    30 +
+ kpiapplication/static/css/bootstrap.min.css   | 12148 +++++++++++++++++++++++
+ kpiapplication/static/css/dashboard.css       |   106 +
+ kpiapplication/static/css/main.css            |    23 +
+ kpiapplication/static/img/logo.png            |   Bin 0 -> 4955 bytes
+ kpiapplication/static/js/chart.js             |    10 +
+ kpiapplication/static/js/expensecharts.js     |    72 +
+ kpiapplication/static/js/getCategoryData.js   |     0
+ kpiapplication/static/js/main.js              |     1 +
+ kpiapplication/static/js/register.js          |    75 +
+ kpiapplication/static/js/searchExpenses.js    |    49 +
+ kpiapplication/static/js/searchIncome.js      |    47 +
+ kpiapplication/static/js/stats.js             |    56 +
+ kpiapplication/static/js/userStats.js         |   106 +
+ kpiapplication/urls.py                        |    25 +
+ kpiapplication/wsgi.py                        |    16 +
  manage.py                                      |    21 +
  requirements.txt                               |     6 +
  templates/admin/base_site.html                 |    12 +
