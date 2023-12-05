@@ -25,6 +25,8 @@ Status <span style="color:orange">Paused</span>:
 > - YTD Funding Relative to code [commits](#commits): <span style="color:red">Insufficient</span>
 > - YTD Funding Relative to Resolved [deliverables](#deliverables): <span style="color:red">Insufficient</span>
 
+> - [Market Cost Of Custom Software](https://www.linkedin.com/pulse/what-cost-custom-software-development-genolis-soft/)
+> > - According to the above article provided by linkedin: The cost of a custom application the size currently built is within the range of 40-100k
 
 
 ## Navigation
