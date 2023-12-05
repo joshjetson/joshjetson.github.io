@@ -1,4 +1,4 @@
-# KPI Queen Application Status and Overview
+# KPI Queen Application, Status and Overview
 
 
 **Current Status**
@@ -7,19 +7,20 @@
 
 | Status  | Current Funding | YTD Funding |
 |:--------|:---------------:|------------:|
-| Halted  |   Exhausted     |   4000.00   | 
+|<span style="color:orange">Paused</span> |    <span style="color:red">Exhausted</span>     |   <span style="color:red">$ 4000.00</span>   | 
 
-> Halted Based on table below, project scope resolved deliverables and quantity of code commits relative to entire code body produced after September 15th 2023
 
 | YTD Days Worked | YTD Hours Worked | Hourly Rate (YTD Funding / Hours Worked) |
-|:---------------:|:----------------:|------------------------------------------:
-|   56 Calendar   |       448        |                    8.90                  |
+|:----------------|:----------------:|------------------------------------------:
+|       56        |        <span style="color:yellow">448</span>        |                    <span style="color:yellow">$ 8.90</span>                  |
 
-
-Expenses
-- Server Usage
-- Server Storage
-- Server Database Access
+Status <span style="color:orange">Paused</span>:
+> Contributing Factors:
+> - Exhausted Funding
+> - YTD Funding Relative to Hourly Rate: <span style="color:red">Insufficient</span>
+> - YTD Funding Relative to code statistics: <span style="color:red">Insufficient</span>
+> - YTD Funding Relative to code [commits](#commits): <span style="color:red">Insufficient</span>
+> - YTD Funding Relative to Resolved deliverables: <span style="color:red">Insufficient</span>
 
 
 ## Project Scope
@@ -504,6 +505,9 @@ Total                 190        63743        57705         1668         4370
 
 
 ## Commit History
+
+
+<div> <a href="#commits"></a></div>
 
 ----------------------------------------------------------------
 
