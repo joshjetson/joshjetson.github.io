@@ -1,9 +1,12 @@
 # KPI Queen Application, Status and Overview
 
+<div id="top"></div>
+
+-----------------------------------------------
 
 **Current Status**
 
-*The current status is up to date as of 12/4/2023*
+*The current status is up to date as of <span style="color:green">12/4/2023</span>*
 
 | Status  | Current Funding | YTD Funding |
 |:--------|:---------------:|------------:|
@@ -18,12 +21,28 @@ Status <span style="color:orange">Paused</span>:
 > Contributing Factors:
 > - Exhausted Funding
 > - YTD Funding Relative to Hourly Rate: <span style="color:red">Insufficient</span>
-> - YTD Funding Relative to code statistics: <span style="color:red">Insufficient</span>
+> - YTD Funding Relative to code [statistics](#stats): <span style="color:red">Insufficient</span>
 > - YTD Funding Relative to code [commits](#commits): <span style="color:red">Insufficient</span>
-> - YTD Funding Relative to Resolved deliverables: <span style="color:red">Insufficient</span>
+> - YTD Funding Relative to Resolved [deliverables](#deliverables): <span style="color:red">Insufficient</span>
 
+
+
+## Navigation
+
+--------------------------------------------------------
+
+[Project Scope](#scope)
+[Deliverables](#deliverables)
+[Code Statistics](#stats)
+[Code File Structure](#files)
+[Code Commits](#commits)
+
+
+<div id="scope"></div>
 
 ## Project Scope
+
+-------------------------------------------------------
 
 **I. Synopsis**
 
@@ -54,6 +73,8 @@ Status <span style="color:orange">Paused</span>:
 - Quality Assurance Personnel
 - Deployment DevOps Personnel
 
+
+<div id="deliverables"></div>
 
 **III. Deliverables**
 
@@ -169,7 +190,14 @@ Status <span style="color:orange">Paused</span>:
 > > > - STATUS: Pending
 
 
+[Back to Top](#top)
+
 ## Code Statistics
+
+*The below code statistics are relative to the file structure section*
+
+<div id="stats"></div>
+
 
 ---------------------------------------
 
@@ -203,13 +231,135 @@ Total                 190        63743        57705         1668         4370
 
 ```
 
+<div id="files"></div>
 
 ## File Structure
 
 -------------------------------------------------
 
+<span style="color:orange">Below is a visual representation of the physical code base as well as a brief interpretation of how sub applications are organized relative to how they function within the framework. The file structure is provided as an aid to prove the information contained in the Code Stats section as well as the Code Commits section</span>
 
-**Full File Structure**
+
+*This is a tree view of the applications folder structure*
+
+```bash
+
+├── assets
+│   ├── migrations
+│   │   └── __pycache__
+│   └── __pycache__
+├── authentication
+│   ├── migrations
+│   └── __pycache__
+├── expenses
+│   ├── migrations
+│   │   └── __pycache__
+│   └── __pycache__
+├── kpiapplicationwebsite
+│   ├── __pycache__
+│   └── static
+│       ├── css
+│       ├── img
+│       └── js
+│           ├── financial
+│           └── randr
+├── kpis
+│   ├── migrations
+│   │   └── __pycache__
+│   ├── __pycache__
+│   └── templatetags
+│       └── __pycache__
+├── liabs
+│   ├── migrations
+│   │   └── __pycache__
+│   └── __pycache__
+├── metrics
+├── screenshots
+├── templates
+│   ├── admin
+│   ├── assets
+│   ├── authentication
+│   ├── expenses
+│   ├── income
+│   ├── kpis
+│   │   └── reports
+│   │       ├── financial
+│   │       └── randr
+│   ├── liabs
+│   ├── partials
+│   └── preferences
+├── userincome
+│   ├── migrations
+│   │   └── __pycache__
+│   └── __pycache__
+└── userpreferences
+    ├── migrations
+        │   └── __pycache__
+            └── __pycache__
+
+
+
+```
+
+[Back to Top](#top)
+
+**I. Interpretation:**
+
+> The framework contains sub applications which exist in their respective folder.
+> All sub applications contain the same file structure.
+> All files respective to each application control various degrees of the application including:
+> - Logic
+> - Data Base Model Objects and Field Types
+> - Reference to Specified Model Objects Set to Additional Administrative Control
+> - Reference to specific paths containing and linking physical resources to server requests
+
+- Aside from sub applications the file structure also contains:
+
+> - Folders and Files specific to server configuration and settings
+> - Folders and Files specific to physical resources such as:
+> > - Environment Variables
+> > - HTML Files
+> > - JavaScript Files
+> > - CSS Files
+
+**II. Interpretation:**
+
+- Consider the following example:
+> The below illustrates an example that the listed FOLDERS contain essentially the same file structure
+
+```bash
+
+├── assets───authentication──expenses──kpis──liabs──userincome──userpreferences <---[FOLDERS]
+│   ├── admin.py   ──│
+│   ├── apps.py      │
+│   ├── models.py    │ FILES
+│   ├── tests.py     │
+│   ├── urls.py      │
+│   └── views.py   ──│
+
+```
+
+- The admin.py file is responsible for containing references to specified models that which the administrator will have access to
+- The apps.py file is a simple file which imports the frameworks app configuration effectively providing a reference to it self which the framework can use
+- The models.py file contains all of the model objects as well as the object types. This is necessary when fields are needed to gather user input
+- The tests.py file contains application tests which are an additional measure to ensure and verify specific application functionality. It's contents are optional
+- The urls.py file is essential to the application locating the necessary resources it needs upon specific requests. It contains references to logic located in the views.py file and pseudonyms to more easily refer to them
+- The views.py file contains all of the applications logics and mechanics. The bulk of the applications computational code will be housed here.
+
+> NOTE: This explanation is respective to each sub-application designated and residing in their own unique folders
+
+
+**III. Interpretation:**
+
+
+- In regards to what the user sees.
+> - These physical resources are managed in the templates folders and are respective to their applications counterparts
+> - Physical resources required to give the page contents style, script logic and populate physical images are located in the main applications static folder
+
+**Full File Structure Including Files**
+
+
+[Back to Top](#top)
 
 ```bash
 
@@ -503,6 +653,7 @@ Total                 190        63743        57705         1668         4370
 ```
 
 
+[Back to Top](#top)
 
 ## Commit History
 
@@ -511,7 +662,7 @@ Total                 190        63743        57705         1668         4370
 
 ----------------------------------------------------------------
 
-
+> This section ads context and credence to the resolved deliverables in the project scope
 
 *A commit is defined as a save point and is relative to the project branch.*
 
@@ -535,6 +686,8 @@ Total                 190        63743        57705         1668         4370
 
 
 *Below is the commit history for the KPI Queen Application*
+
+<span style="color:orange">Total Commits YTD = <span style="color:green">104</span></span>
 
 
 ```diff
@@ -2084,3 +2237,4 @@ Author: joshjetson <joshjetson@gmail.com>
 
  ```
 
+[Back to Top](#top)
