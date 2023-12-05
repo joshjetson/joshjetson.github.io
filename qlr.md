@@ -2252,17 +2252,20 @@ Author: joshjetson <joshjetson@gmail.com>
 
 --------------------------------------------------------------------------------
 
-<table rules=none>
- <tr>
-<td> <img src="https://imgur.com/eTv305g.png"></td>
-<td> <img src="https://imgur.com/XBL5xhO.png"></td>
-<td> <img src="https://imgur.com/VOdwwyn.png"></td>
-<td> <img src="https://imgur.com/uBAhLqS.png"></td>
-<td> <img src="https://imgur.com/rnblcK6.png"></td>
-<td> <img src="https://imgur.com/JT2s973.png"></td>
-<td> <img src="https://imgur.com/gQbvYZ2.png"></td>
-</tr>
-</table>
+<img src="https://imgur.com/eTv305g.png">
+
+<img src="https://imgur.com/XBL5xhO.png">
+
+<img src="https://imgur.com/VOdwwyn.png">
+
+<img src="https://imgur.com/uBAhLqS.png">
+
+<img src="https://imgur.com/rnblcK6.png">
+
+<img src="https://imgur.com/JT2s973.png">
+
+<img src="https://imgur.com/gQbvYZ2.png">
+
 
 
 
