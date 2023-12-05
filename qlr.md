@@ -32,9 +32,13 @@ Status <span style="color:orange">Paused</span>:
 --------------------------------------------------------
 
 [Project Scope](#scope)
+
 [Deliverables](#deliverables)
+
 [Code Statistics](#stats)
+
 [Code File Structure](#files)
+
 [Code Commits](#commits)
 
 
