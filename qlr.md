@@ -12,7 +12,7 @@
 
 | YTD Days Worked | YTD Hours Worked | Hourly Rate (YTD Funding / Hours Worked) |
 |:----------------|:----------------:|------------------------------------------:
-|       56        |        <span style="color:yellow">448</span>        |                    <span style="color:yellow">$ 8.90</span>                  |
+|       56        |        <span style="color:yellow">448</span>        |                    <span style="color:red">$ 8.90</span>                  |
 
 Status <span style="color:orange">Paused</span>:
 > Contributing Factors:
@@ -507,7 +507,7 @@ Total                 190        63743        57705         1668         4370
 ## Commit History
 
 
-<div> <a href="#commits"></a></div>
+<div id="commits"> </div>
 
 ----------------------------------------------------------------
 
