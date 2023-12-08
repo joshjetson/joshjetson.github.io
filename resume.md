@@ -100,6 +100,9 @@ Oct 2019-Jan 2021
 Technical Experience
 --------------------
 
+Portfolio
+:   https://joshjetson.github.io
+
 Side Projects
 :   Streamlit ControllerDF
 
