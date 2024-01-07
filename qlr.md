@@ -2,11 +2,69 @@
 
 <div id="top"></div>
 
+<table rules=none>
+ <tr>
+<td> <img src="https://imgur.com/yo134yO.png"></td>
+<td> <h2><a href="https://joshjetson.github.io">Key Performance Indicator Application</a></h2><br>A proprietary application that keeps track of financial records <br>and shows small business owners key performance indicators based on those records</td>
+</tr>
+</table>
+
 -----------------------------------------------
 
-**Current Status**
+## Navigation
 
-*The current status is up to date as of <span style="color:green">12/4/2023</span>*
+--------------------------------------------------------
+
+[Project Scope](#scope)
+
+[Deliverables](#deliverables)
+
+[Code Statistics](#stats)
+
+[Code File Structure](#files)
+
+[Code Commits](#commits)
+
+[Application Screenshots](#ss)
+
+<div id="ss"></div>
+
+## Screenshots
+
+--------------------------------------------------------------------------------
+
+<img src="https://imgur.com/7cc7K31.png">
+
+<img src="https://imgur.com/yo134yO.png">
+
+<img src="https://imgur.com/NOCGrTd.png">
+
+<img src="https://imgur.com/YrGZBn2.png">
+
+<img src="https://imgur.com/eTv305g.png">
+
+<img src="https://imgur.com/XBL5xhO.png">
+
+<img src="https://imgur.com/VOdwwyn.png">
+
+<img src="https://imgur.com/uBAhLqS.png">
+
+<img src="https://imgur.com/rnblcK6.png">
+
+<img src="https://imgur.com/JT2s973.png">
+
+<img src="https://imgur.com/gQbvYZ2.png">
+
+
+
+
+[Back to Top](#top)
+
+## Project Status
+
+--------------------------------------
+
+*The current status is up to date and set as of <span style="color:green">12/4/2023</span>*
 
 | Status  | Current Funding | YTD Funding |
 |:--------|:---------------:|------------:|
@@ -29,21 +87,6 @@ Status <span style="color:orange">Paused</span>:
 > > - According to the above article provided by linkedin: The cost of a custom application the size currently built is within the range of 40-100k
 
 
-## Navigation
-
---------------------------------------------------------
-
-[Project Scope](#scope)
-
-[Deliverables](#deliverables)
-
-[Code Statistics](#stats)
-
-[Code File Structure](#files)
-
-[Code Commits](#commits)
-
-[Application Screenshots](#ss)
 
 <div id="scope"></div>
 
@@ -66,8 +109,7 @@ Status <span style="color:orange">Paused</span>:
 
 **II. Requirements**
 
-- Adequate Funding
-- Team of Developers
+- Team of Developers 
 - Design Team Managing and Responsible for The Visual Aesthetic of The Application
 - Project Consultant
 - Project Management
@@ -80,6 +122,9 @@ Status <span style="color:orange">Paused</span>:
 - Quality Assurance Personnel
 - Deployment DevOps Personnel
 
+**II.b Requirements Status**
+
+- The above requirements have been provided by Josh of Virtualraremedia.
 
 <div id="deliverables"></div>
 
@@ -2246,27 +2291,3 @@ Author: joshjetson <joshjetson@gmail.com>
 
 [Back to Top](#top)
 
-<div id="ss"></div>
-
-## Screenshots
-
---------------------------------------------------------------------------------
-
-<img src="https://imgur.com/eTv305g.png">
-
-<img src="https://imgur.com/XBL5xhO.png">
-
-<img src="https://imgur.com/VOdwwyn.png">
-
-<img src="https://imgur.com/uBAhLqS.png">
-
-<img src="https://imgur.com/rnblcK6.png">
-
-<img src="https://imgur.com/JT2s973.png">
-
-<img src="https://imgur.com/gQbvYZ2.png">
-
-
-
-
-[Back to Top](#top)
