@@ -28,6 +28,8 @@ They help you think on your toes and give you a greater understanding of the too
 Once you start understanding what data structures are you slowly start to unravel the composition of a programming language.
 The ideas of:
 
+- Include all of the datastructures you worked on
+
 - How to store something
 - How to get something thats stored
 - How to delete something thats stored
@@ -44,3 +46,30 @@ The ideas of:
 ## The Deconstructred Learning System
 
 -----------------------------------
+
+
+
+
+## Python 101 w/Josh
+
+-----------------------
+
+- Include all Links to each individual class
+- Include a link to the replit
+
+
+## Django Tutorial
+
+--------------------------
+
+*From start to deployment*
+
+
+
+
+## KPI Queen Application
+
+-------------------------
+
+
+- Include the qlr
