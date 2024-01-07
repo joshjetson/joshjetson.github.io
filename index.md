@@ -45,6 +45,10 @@
 <td> <h2><a href="https://joshjetson.github.io/qlr">KPI Application</a></h2><br>A proprietary application that keeps track of financial records <br>and shows small business owners key performance indicators based on those records</td>
 </tr>
  <tr>
+<td> <img src="https://imgur.com/bJWpjet.png"></td>
+<td> <h2><a href="https://virtualraremedia.com">My personal company website</a></h2><br>A personal website/application built in Django, (Deployed via Google Compute Engine, In active development)</td>
+</tr>
+ <tr>
 <td> <img src="https://i.imgur.com/h3VBZMf.png"></td>
 <td> <h2><a href="https://joshjetson.github.io/urfa">Universal Repository<br>of<br>Flagged<br>IP Addresses</a></h2><br>An ever growing lake of IP addresses from wannabe hackers</td>
 </tr>
