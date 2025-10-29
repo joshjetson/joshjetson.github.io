@@ -48,7 +48,6 @@ sequenceDiagram
 
 <a id="nav"></a>
 
-<div align="center">
 
 [Grails Default Behavior](#grails-default-behavior-1)
 [Url Mappings](#url-mappings-explained)
@@ -66,16 +65,14 @@ sequenceDiagram
 [Params](#params)
 [HTMX and Grails](#htmx-and-grails)
 [GSON Views](#gson-in-grails)
-[Getting Started](#getting-started---developer-machine-setup)
-
-</div>
+[Getting Started](#getting-started)
 
 
----
 
 ---
 
-<br>
+---
+
 
 ## Grails Folder Hierarchy
 
