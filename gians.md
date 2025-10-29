@@ -48,27 +48,27 @@ sequenceDiagram
 
 <a id="nav"></a>
 
-<center>
+<div align="center">
 
-[Grails Default Behavior](#grails-default-behavior)
-<br> [Url Mappings](#url-mappings-explained)
-<br> [GSP (Groovy Server Pages)](#GSP)
-<br> [GSP Tags](#gsp-tags)
-<br> [Asset Pipeline](#asset-pipeline)
-<br> [Interceptors](#interceptors)
-<br> [Controllers](#controllers)
-<br> [Dynamic Finders](#dynamic-finders-in-grails)
-<br> [Command Objects](#command-object)
-<br> [Services](#services)
-<br> [Domain Classes](#domain-classes)
-<br> [Database Migrations](#database-migrations)
-<br> [Annotations](#annotations)
-<br> [Params](#params)
-<br> [HTMX and Grails](#htmx-and-grails)
-<br> [GSON Views](#gson-in-grails)
-<br> [Getting Started](#getting-started---developer-machine-setup)
+[Grails Default Behavior](#grails-default-behavior-1)
+[Url Mappings](#url-mappings-explained)
+[GSP (Groovy Server Pages)](#gsp)
+[GSP Tags](#gsp-tags)
+[Asset Pipeline](#asset-pipeline)
+[Interceptors](#interceptors)
+[Controllers](#controllers)
+[Dynamic Finders](#dynamic-finders-in-grails)
+[Command Objects](#command-object)
+[Services](#services)
+[Domain Classes](#domain-classes)
+[Database Migrations](#database-migrations)
+[Annotations](#annotations)
+[Params](#params)
+[HTMX and Grails](#htmx-and-grails)
+[GSON Views](#gson-in-grails)
+[Getting Started](#getting-started---developer-machine-setup)
 
-</center>
+</div>
 
 
 ---
